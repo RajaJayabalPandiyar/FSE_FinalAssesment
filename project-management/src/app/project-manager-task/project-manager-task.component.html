@@ -8,6 +8,7 @@
         </ng-select2>
       </div>
     </div>
+
     <div class="col-md-6">
       <div class="form-group">
         <label for="taskName">Task:</label>
@@ -18,7 +19,7 @@
 
         <div class="alert alert-danger"
           *ngIf="addForm.get('taskName').hasError('required') && addForm.get('taskName').touched">
-          Task Name is required.
+          Task Name is Mandatory.
         </div>
 
       </div>
@@ -58,10 +59,11 @@
         </ng-select2>
       </div>
     </div>
+
     <button style="background-color: darksalmon" class="btn btn-success" [disabled]='addForm.invalid' *ngIf="btnvisibility" (click)="onSubmit()">Add
       Task</button>
     <button style="background-color: darksalmon" class="btn btn-success" [disabled]='addForm.invalid' *ngIf="!btnvisibility"
-      (click)="onUpdate()">Reset</button>
+      (click)="onUpdate()">Clear</button>
 
   </form>
 </div>

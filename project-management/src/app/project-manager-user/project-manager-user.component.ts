@@ -33,23 +33,7 @@ export class ProjectManagerUserComponent implements OnInit {
       this.btnvisibility = false;      
     }   
   }  
-  onSubmit() {
-    this.userService.createUser(this.addForm.value)  
-    .subscribe((data: any) => {
-      if(data)
-      {  
-        alert("User added successfully");
-        location.reload();        
-      }
-      else
-      {
-        alert("User add failed due to server error, kindly check for duplicate record and try again");     
-      }
-    },  
-    error => {  
-      alert(error);  
-    });  
-  }  
+  
   onUpdate() {      
     this.userService.updateSupplier(this.addForm.value).subscribe((data: any) => {
       if(data)
@@ -68,6 +52,24 @@ export class ProjectManagerUserComponent implements OnInit {
     });
   }
 
+  onSubmit() {
+    this.userService.createUser(this.addForm.value)  
+    .subscribe((data: any) => {
+      if(data)
+      {  
+        alert("User added successfully");
+        location.reload();        
+      }
+      else
+      {
+        alert("User add failed due to server error, kindly check for duplicate record and try again");     
+      }
+    },  
+    error => {  
+      alert(error);  
+    });  
+  }  
+  
   onReset() {      
     this.addForm = this.formBuilder.group({      
       firstName: ['', [Validators.required]],  
