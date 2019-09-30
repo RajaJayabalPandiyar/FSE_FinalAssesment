@@ -1,0 +1,13 @@
+Started by user Raja Jayabal Pandiyar
+Running as SYSTEM
+Building in workspace C:\Program Files (x86)\Jenkins\workspace\FSE_Jenkins
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/RajaJayabalPandiyar/FSE_FinalAssesment.git
+ > git.exe init C:\Program Files (x86)\Jenkins\workspace\FSE_Jenkins # timeout=10
+Fetching upstream changes from https://github.com/RajaJayabalPandiyar/FSE_FinalAssesment.git
+ > git.exe --version # timeout=10
+ > git.exe fetch --tags --progress -- https://github.com/RajaJayabalPandiyar/FSE_FinalAssesment.git +refs/heads/*:refs/remotes/origin/*
+Build was aborted
+Aborted by Raja Jayabal Pandiyar
+Finished: ABORTED

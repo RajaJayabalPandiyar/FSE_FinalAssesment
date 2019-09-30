@@ -1,0 +1,18 @@
+Started by user Raja Jayabal Pandiyar
+Running as SYSTEM
+Building in workspace C:\Program Files (x86)\Jenkins\workspace\FSE_Jenkins
+No credentials specified
+ > git.exe rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git.exe config remote.origin.url https://github.com/RajaJayabalPandiyar/FSE_FinalAssesment.git # timeout=10
+Fetching upstream changes from https://github.com/RajaJayabalPandiyar/FSE_FinalAssesment.git
+ > git.exe --version # timeout=10
+ > git.exe fetch --tags --progress -- https://github.com/RajaJayabalPandiyar/FSE_FinalAssesment.git +refs/heads/*:refs/remotes/origin/*
+ > git.exe rev-parse "refs/remotes/origin/master^{commit}" # timeout=10
+ > git.exe rev-parse "refs/remotes/origin/origin/master^{commit}" # timeout=10
+Checking out Revision a8d3af0431917ba087308c5e510df42d00c334e8 (refs/remotes/origin/master)
+ > git.exe config core.sparsecheckout # timeout=10
+ > git.exe checkout -f a8d3af0431917ba087308c5e510df42d00c334e8
+Commit message: "API Code"
+ > git.exe rev-list --no-walk 50cf12c258a482972d35d235d6a7b018d4fa8145 # timeout=10
+Finished: SUCCESS
