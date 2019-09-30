@@ -44,8 +44,10 @@ namespace BusinessLayer
             foreach (var project in projectList)
             {
                 var projectModel = mapObj.Translate(project);
-                projectModel.NoOfTasks = DataLayer.DataLayer.GetTasks().Where(x => x.Project_ID == projectModel.Project_ID).ToList().Count;
-                projectModel.CompletedTasks = DataLayer.DataLayer.GetTasks().Where(x => x.Project_ID == projectModel.Project_ID && x.End_Date.Date <= DateTime.Now.Date).ToList().Count;
+                projectModel.NoOfTasks = DataLayer.DataLayer.GetTasks()
+                    .Where(x => x.Project_ID == projectModel.Project_ID).ToList().Count;
+                projectModel.CompletedTasks = DataLayer.DataLayer.GetTasks()
+                    .Where(x => x.Project_ID == projectModel.Project_ID && x.End_Date.Date <= DateTime.Now.Date).ToList().Count;
                 projectModels.Add(projectModel);
             }
 

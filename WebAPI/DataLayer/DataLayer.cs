@@ -187,7 +187,8 @@ namespace DataLayer
             bool status;
             try
             {
-                ParentTask ParentTaskItem = DbContext.ParentTasks.Where(x => x.Parent_ID == parentTask.Parent_ID).FirstOrDefault();
+                ParentTask ParentTaskItem = DbContext
+                    .ParentTasks.Where(x => x.Parent_ID == parentTask.Parent_ID).FirstOrDefault();
                 if (ParentTaskItem != null)
                 {
                     ParentTaskItem.ParentTaskName = parentTask.ParentTaskName;
