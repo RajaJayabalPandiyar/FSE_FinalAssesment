@@ -12,3 +12,8 @@ C:\00_Raja\LatestFSEFinals\WebAPI\Common.DataModel\bin\Debug\Common.DataModel.dl
 C:\00_Raja\LatestFSEFinals\WebAPI\Common.DataModel\bin\Debug\Common.DataModel.pdb
 C:\00_Raja\LatestFSEFinals\WebAPI\Common.DataModel\obj\Debug\Common.DataModel.dll
 C:\00_Raja\LatestFSEFinals\WebAPI\Common.DataModel\obj\Debug\Common.DataModel.pdb
+C:\00_Raja\FSESubmission\FSE_FinalAssesment\WebAPI\Common.DataModel\bin\Debug\Common.DataModel.dll
+C:\00_Raja\FSESubmission\FSE_FinalAssesment\WebAPI\Common.DataModel\bin\Debug\Common.DataModel.pdb
+C:\00_Raja\FSESubmission\FSE_FinalAssesment\WebAPI\Common.DataModel\obj\Debug\Common.DataModel.csprojResolveAssemblyReference.cache
+C:\00_Raja\FSESubmission\FSE_FinalAssesment\WebAPI\Common.DataModel\obj\Debug\Common.DataModel.dll
+C:\00_Raja\FSESubmission\FSE_FinalAssesment\WebAPI\Common.DataModel\obj\Debug\Common.DataModel.pdb
