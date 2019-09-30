@@ -1,0 +1,953 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-run id="2" testcasecount="41" result="Failed" total="41" passed="16" failed="25" inconclusive="0" skipped="0" asserts="26" engine-version="3.10.0.0" clr-version="4.0.30319.42000" start-time="2019-09-24 16:08:47Z" end-time="2019-09-24 16:09:07Z" duration="20.270831">
+  <command-line><![CDATA["C:\Reshma\FinalCertification\LatestFSEFinals\ProjectManagerWebAPI\packages\NUnit.ConsoleRunner.3.10.0\tools\nunit3-console.exe" "C:\Reshma\FinalCertification\LatestFSEFinals\ProjectManagerWebAPI\ProjectManager.BusinessLayer.Tests\bin\Debug\ProjectManager.BusinessLayer.Tests.dll"]]></command-line>
+  <test-suite type="Assembly" id="0-1042" name="ProjectManager.BusinessLayer.Tests.dll" fullname="C:\Reshma\FinalCertification\LatestFSEFinals\ProjectManagerWebAPI\ProjectManager.BusinessLayer.Tests\bin\Debug\ProjectManager.BusinessLayer.Tests.dll" runstate="Runnable" testcasecount="41" result="Failed" site="Child" start-time="2019-09-24 16:08:49Z" end-time="2019-09-24 16:09:07Z" duration="18.054281" total="41" passed="16" failed="25" warnings="0" inconclusive="0" skipped="0" asserts="26">
+    <environment framework-version="3.12.0.0" clr-version="4.0.30319.42000" os-version="Microsoft Windows NT 10.0.16299.0" platform="Win32NT" cwd="C:\Reshma\FinalCertification\LatestFSEFinals\ProjectManagerWebAPI" machine-name="APMDP-ELPT50854" user="reraje" user-domain="ACEINA" culture="en-US" uiculture="en-US" os-architecture="x64" />
+    <settings>
+      <setting name="DisposeRunners" value="True" />
+      <setting name="WorkDirectory" value="C:\Reshma\FinalCertification\LatestFSEFinals\ProjectManagerWebAPI" />
+      <setting name="ImageRuntimeVersion" value="4.0.30319" />
+      <setting name="ImageTargetFrameworkName" value=".NETFramework,Version=v4.7.2" />
+      <setting name="ImageRequiresX86" value="False" />
+      <setting name="ImageRequiresDefaultAppDomainAssemblyResolver" value="False" />
+      <setting name="NumberOfTestWorkers" value="8" />
+    </settings>
+    <properties>
+      <property name="_PID" value="28512" />
+      <property name="_APPDOMAIN" value="domain-" />
+    </properties>
+    <failure>
+      <message><![CDATA[One or more child tests had errors]]></message>
+    </failure>
+    <test-suite type="TestSuite" id="0-1043" name="ProjectManager" fullname="ProjectManager" runstate="Runnable" testcasecount="41" result="Failed" site="Child" start-time="2019-09-24 16:08:49Z" end-time="2019-09-24 16:09:07Z" duration="18.033394" total="41" passed="16" failed="25" warnings="0" inconclusive="0" skipped="0" asserts="26">
+      <failure>
+        <message><![CDATA[One or more child tests had errors]]></message>
+      </failure>
+      <test-suite type="TestSuite" id="0-1044" name="BusinessLayer" fullname="ProjectManager.BusinessLayer" runstate="Runnable" testcasecount="41" result="Failed" site="Child" start-time="2019-09-24 16:08:49Z" end-time="2019-09-24 16:09:07Z" duration="18.032349" total="41" passed="16" failed="25" warnings="0" inconclusive="0" skipped="0" asserts="26">
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-suite type="TestSuite" id="0-1045" name="Tests" fullname="ProjectManager.BusinessLayer.Tests" runstate="Runnable" testcasecount="41" result="Failed" site="Child" start-time="2019-09-24 16:08:49Z" end-time="2019-09-24 16:09:07Z" duration="18.032302" total="41" passed="16" failed="25" warnings="0" inconclusive="0" skipped="0" asserts="26">
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-suite type="TestFixture" id="0-1000" name="ProjectManagerServiceTests" fullname="ProjectManager.BusinessLayer.Tests.ProjectManagerServiceTests" classname="ProjectManager.BusinessLayer.Tests.ProjectManagerServiceTests" runstate="Runnable" testcasecount="41" result="Failed" site="Child" start-time="2019-09-24 16:08:49Z" end-time="2019-09-24 16:09:07Z" duration="18.028036" total="41" passed="16" failed="25" warnings="0" inconclusive="0" skipped="0" asserts="26">
+            <failure>
+              <message><![CDATA[One or more child tests had errors]]></message>
+            </failure>
+            <test-case id="0-1011" name="AddParentTaskForInValidDataTest" fullname="ProjectManager.BusinessLayer.Tests.ProjectManagerServiceTests.AddParentTaskForInValidDataTest" methodname="AddParentTaskForInValidDataTest" classname="ProjectManager.BusinessLayer.Tests.ProjectManagerServiceTests" runstate="Runnable" seed="888621581" result="Passed" start-time="2019-09-24 16:08:49Z" end-time="2019-09-24 16:08:51Z" duration="2.308855" asserts="1" />
+            <test-case id="0-1012" name="AddParentTaskForNullTest" fullname="ProjectManager.BusinessLayer.Tests.ProjectManagerServiceTests.AddParentTaskForNullTest" methodname="AddParentTaskForNullTest" classname="ProjectManager.BusinessLayer.Tests.ProjectManagerServiceTests" runstate="Runnable" seed="1724183939" result="Passed" start-time="2019-09-24 16:08:51Z" end-time="2019-09-24 16:08:51Z" duration="0.036402" asserts="1" />
+            <test-case id="0-1010" name="AddParentTaskForValidDataTest" fullname="ProjectManager.BusinessLayer.Tests.ProjectManagerServiceTests.AddParentTaskForValidDataTest" methodname="AddParentTaskForValidDataTest" classname="ProjectManager.BusinessLayer.Tests.ProjectManagerServiceTests" runstate="Runnable" seed="1006428181" result="Failed" start-time="2019-09-24 16:08:51Z" end-time="2019-09-24 16:08:51Z" duration="0.076446" asserts="1">
+              <failure>
+                <message><![CDATA[  Expected: True
+  But was:  False
+]]></message>
+                <stack-trace><![CDATA[   at ProjectManager.BusinessLayer.Tests.ProjectManagerServiceTests.AddParentTaskForValidDataTest() in C:\Reshma\FinalCertification\LatestFSEFinals\ProjectManagerWebAPI\ProjectManager.BusinessLayer.Tests\ProjectManagerServiceTests.cs:line 140
+]]></stack-trace>
+              </failure>
+              <assertions>
+                <assertion result="Failed">
+                  <message><![CDATA[  Expected: True
+  But was:  False
+]]></message>
+                  <stack-trace><![CDATA[   at ProjectManager.BusinessLayer.Tests.ProjectManagerServiceTests.AddParentTaskForValidDataTest() in C:\Reshma\FinalCertification\LatestFSEFinals\ProjectManagerWebAPI\ProjectManager.BusinessLayer.Tests\ProjectManagerServiceTests.cs:line 140
+]]></stack-trace>
+                </assertion>
+              </assertions>
+            </test-case>
+            <test-case id="0-1008" name="AddProjectForInValidDataTest" fullname="ProjectManager.BusinessLayer.Tests.ProjectManagerServiceTests.AddProjectForInValidDataTest" methodname="AddProjectForInValidDataTest" classname="ProjectManager.BusinessLayer.Tests.ProjectManagerServiceTests" runstate="Runnable" seed="275010582" result="Passed" start-time="2019-09-24 16:08:51Z" end-time="2019-09-24 16:08:51Z" duration="0.017888" asserts="1" />
+            <test-case id="0-1009" name="AddProjectForNullTest" fullname="ProjectManager.BusinessLayer.Tests.ProjectManagerServiceTests.AddProjectForNullTest" methodname="AddProjectForNullTest" classname="ProjectManager.BusinessLayer.Tests.ProjectManagerServiceTests" runstate="Runnable" seed="467679711" result="Passed" start-time="2019-09-24 16:08:51Z" end-time="2019-09-24 16:08:51Z" duration="0.007485" asserts="1" />
+            <test-case id="0-1007" name="AddProjectForValidDataTest" fullname="ProjectManager.BusinessLayer.Tests.ProjectManagerServiceTests.AddProjectForValidDataTest" methodname="AddProjectForValidDataTest" classname="ProjectManager.BusinessLayer.Tests.ProjectManagerServiceTests" runstate="Runnable" seed="1322654311" result="Failed" start-time="2019-09-24 16:08:51Z" end-time="2019-09-24 16:08:51Z" duration="0.013484" asserts="1">
+              <failure>
+                <message><![CDATA[  Expected: True
+  But was:  False
+]]></message>
+                <stack-trace><![CDATA[   at ProjectManager.BusinessLayer.Tests.ProjectManagerServiceTests.AddProjectForValidDataTest() in C:\Reshma\FinalCertification\LatestFSEFinals\ProjectManagerWebAPI\ProjectManager.BusinessLayer.Tests\ProjectManagerServiceTests.cs:line 108
+]]></stack-trace>
+              </failure>
+              <assertions>
+                <assertion result="Failed">
+                  <message><![CDATA[  Expected: True
+  But was:  False
+]]></message>
+                  <stack-trace><![CDATA[   at ProjectManager.BusinessLayer.Tests.ProjectManagerServiceTests.AddProjectForValidDataTest() in C:\Reshma\FinalCertification\LatestFSEFinals\ProjectManagerWebAPI\ProjectManager.BusinessLayer.Tests\ProjectManagerServiceTests.cs:line 108
+]]></stack-trace>
+                </assertion>
+              </assertions>
+            </test-case>
+            <test-case id="0-1002" name="AddTaskForInValidDataTest" fullname="ProjectManager.BusinessLayer.Tests.ProjectManagerServiceTests.AddTaskForInValidDataTest" methodname="AddTaskForInValidDataTest" classname="ProjectManager.BusinessLayer.Tests.ProjectManagerServiceTests" runstate="Runnable" seed="1620239350" result="Passed" start-time="2019-09-24 16:08:51Z" end-time="2019-09-24 16:08:51Z" duration="0.029898" asserts="1" />
+            <test-case id="0-1003" name="AddTaskForNullTest" fullname="ProjectManager.BusinessLayer.Tests.ProjectManagerServiceTests.AddTaskForNullTest" methodname="AddTaskForNullTest" classname="ProjectManager.BusinessLayer.Tests.ProjectManagerServiceTests" runstate="Runnable" seed="2052551494" result="Passed" start-time="2019-09-24 16:08:51Z" end-time="2019-09-24 16:08:51Z" duration="0.013418" asserts="1" />
+            <test-case id="0-1001" name="AddTaskForValidDataTest" fullname="ProjectManager.BusinessLayer.Tests.ProjectManagerServiceTests.AddTaskForValidDataTest" methodname="AddTaskForValidDataTest" classname="ProjectManager.BusinessLayer.Tests.ProjectManagerServiceTests" runstate="Runnable" seed="1133282349" result="Failed" start-time="2019-09-24 16:08:51Z" end-time="2019-09-24 16:08:51Z" duration="0.012577" asserts="1">
+              <failure>
+                <message><![CDATA[  Expected: True
+  But was:  False
+]]></message>
+                <stack-trace><![CDATA[   at ProjectManager.BusinessLayer.Tests.ProjectManagerServiceTests.AddTaskForValidDataTest() in C:\Reshma\FinalCertification\LatestFSEFinals\ProjectManagerWebAPI\ProjectManager.BusinessLayer.Tests\ProjectManagerServiceTests.cs:line 33
+]]></stack-trace>
+              </failure>
+              <assertions>
+                <assertion result="Failed">
+                  <message><![CDATA[  Expected: True
+  But was:  False
+]]></message>
+                  <stack-trace><![CDATA[   at ProjectManager.BusinessLayer.Tests.ProjectManagerServiceTests.AddTaskForValidDataTest() in C:\Reshma\FinalCertification\LatestFSEFinals\ProjectManagerWebAPI\ProjectManager.BusinessLayer.Tests\ProjectManagerServiceTests.cs:line 33
+]]></stack-trace>
+                </assertion>
+              </assertions>
+            </test-case>
+            <test-case id="0-1005" name="AddUserForInValidDataTest" fullname="ProjectManager.BusinessLayer.Tests.ProjectManagerServiceTests.AddUserForInValidDataTest" methodname="AddUserForInValidDataTest" classname="ProjectManager.BusinessLayer.Tests.ProjectManagerServiceTests" runstate="Runnable" seed="1747075817" result="Passed" start-time="2019-09-24 16:08:51Z" end-time="2019-09-24 16:08:51Z" duration="0.015561" asserts="1" />
+            <test-case id="0-1006" name="AddUserForNullTest" fullname="ProjectManager.BusinessLayer.Tests.ProjectManagerServiceTests.AddUserForNullTest" methodname="AddUserForNullTest" classname="ProjectManager.BusinessLayer.Tests.ProjectManagerServiceTests" runstate="Runnable" seed="900483062" result="Passed" start-time="2019-09-24 16:08:51Z" end-time="2019-09-24 16:08:51Z" duration="0.007219" asserts="1" />
+            <test-case id="0-1004" name="AddUserForValidDataTest" fullname="ProjectManager.BusinessLayer.Tests.ProjectManagerServiceTests.AddUserForValidDataTest" methodname="AddUserForValidDataTest" classname="ProjectManager.BusinessLayer.Tests.ProjectManagerServiceTests" runstate="Runnable" seed="1833361634" result="Failed" start-time="2019-09-24 16:08:51Z" end-time="2019-09-24 16:08:52Z" duration="0.011299" asserts="1">
+              <failure>
+                <message><![CDATA[  Expected: True
+  But was:  False
+]]></message>
+                <stack-trace><![CDATA[   at ProjectManager.BusinessLayer.Tests.ProjectManagerServiceTests.AddUserForValidDataTest() in C:\Reshma\FinalCertification\LatestFSEFinals\ProjectManagerWebAPI\ProjectManager.BusinessLayer.Tests\ProjectManagerServiceTests.cs:line 72
+]]></stack-trace>
+              </failure>
+              <assertions>
+                <assertion result="Failed">
+                  <message><![CDATA[  Expected: True
+  But was:  False
+]]></message>
+                  <stack-trace><![CDATA[   at ProjectManager.BusinessLayer.Tests.ProjectManagerServiceTests.AddUserForValidDataTest() in C:\Reshma\FinalCertification\LatestFSEFinals\ProjectManagerWebAPI\ProjectManager.BusinessLayer.Tests\ProjectManagerServiceTests.cs:line 72
+]]></stack-trace>
+                </assertion>
+              </assertions>
+            </test-case>
+            <test-case id="0-1041" name="DeleteProjectTest" fullname="ProjectManager.BusinessLayer.Tests.ProjectManagerServiceTests.DeleteProjectTest" methodname="DeleteProjectTest" classname="ProjectManager.BusinessLayer.Tests.ProjectManagerServiceTests" runstate="Runnable" seed="820512969" result="Failed" start-time="2019-09-24 16:08:52Z" end-time="2019-09-24 16:09:07Z" duration="15.044055" asserts="1">
+              <failure>
+                <message><![CDATA[  Expected: True
+  But was:  False
+]]></message>
+                <stack-trace><![CDATA[   at ProjectManager.BusinessLayer.Tests.ProjectManagerServiceTests.DeleteProjectTest() in C:\Reshma\FinalCertification\LatestFSEFinals\ProjectManagerWebAPI\ProjectManager.BusinessLayer.Tests\ProjectManagerServiceTests.cs:line 427
+]]></stack-trace>
+              </failure>
+              <assertions>
+                <assertion result="Failed">
+                  <message><![CDATA[  Expected: True
+  But was:  False
+]]></message>
+                  <stack-trace><![CDATA[   at ProjectManager.BusinessLayer.Tests.ProjectManagerServiceTests.DeleteProjectTest() in C:\Reshma\FinalCertification\LatestFSEFinals\ProjectManagerWebAPI\ProjectManager.BusinessLayer.Tests\ProjectManagerServiceTests.cs:line 427
+]]></stack-trace>
+                </assertion>
+              </assertions>
+            </test-case>
+            <test-case id="0-1040" name="DeleteUserTest" fullname="ProjectManager.BusinessLayer.Tests.ProjectManagerServiceTests.DeleteUserTest" methodname="DeleteUserTest" classname="ProjectManager.BusinessLayer.Tests.ProjectManagerServiceTests" runstate="Runnable" seed="811597979" result="Failed" start-time="2019-09-24 16:09:07Z" end-time="2019-09-24 16:09:07Z" duration="0.036993" asserts="1">
+              <failure>
+                <message><![CDATA[  Expected: True
+  But was:  False
+]]></message>
+                <stack-trace><![CDATA[   at ProjectManager.BusinessLayer.Tests.ProjectManagerServiceTests.DeleteUserTest() in C:\Reshma\FinalCertification\LatestFSEFinals\ProjectManagerWebAPI\ProjectManager.BusinessLayer.Tests\ProjectManagerServiceTests.cs:line 420
+]]></stack-trace>
+              </failure>
+              <assertions>
+                <assertion result="Failed">
+                  <message><![CDATA[  Expected: True
+  But was:  False
+]]></message>
+                  <stack-trace><![CDATA[   at ProjectManager.BusinessLayer.Tests.ProjectManagerServiceTests.DeleteUserTest() in C:\Reshma\FinalCertification\LatestFSEFinals\ProjectManagerWebAPI\ProjectManager.BusinessLayer.Tests\ProjectManagerServiceTests.cs:line 420
+]]></stack-trace>
+                </assertion>
+              </assertions>
+            </test-case>
+            <test-case id="0-1021" name="GetProjectForInValidDataTest" fullname="ProjectManager.BusinessLayer.Tests.ProjectManagerServiceTests.GetProjectForInValidDataTest" methodname="GetProjectForInValidDataTest" classname="ProjectManager.BusinessLayer.Tests.ProjectManagerServiceTests" runstate="Runnable" seed="780801837" result="Failed" label="Error" start-time="2019-09-24 16:09:07Z" end-time="2019-09-24 16:09:07Z" duration="0.021381" asserts="0">
+              <failure>
+                <message><![CDATA[System.Data.Entity.Core.EntityException : The underlying provider failed on Open.
+  ----> System.Data.SqlClient.SqlException : A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+Data:
+  HelpLink.ProdName: Microsoft SQL Server
+  HelpLink.EvtSrc: MSSQLServer
+  HelpLink.EvtID: 53
+  HelpLink.BaseHelpUrl: http://go.microsoft.com/fwlink
+  HelpLink.LinkId: 20476
+
+  ----> System.ComponentModel.Win32Exception : The network path was not found]]></message>
+                <stack-trace><![CDATA[   at System.Data.Entity.Core.EntityClient.EntityConnection.Open()
+   at System.Data.Entity.Core.Objects.ObjectContext.EnsureConnection(Boolean shouldMonitorTransactions)
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass41_0.<GetResults>b__0()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__31_0()
+   at System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.<>c__14`1.<GetElementFunction>b__14_1(IEnumerable`1 sequence)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.ExecuteSingle[TResult](IEnumerable`1 query, Expression queryRoot)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.System.Linq.IQueryProvider.Execute[TResult](Expression expression)
+   at System.Data.Entity.Internal.Linq.DbQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source)
+   at ProjectManager.DataLayer.ProjectManagerRepository.GetProject(Int32 projectID) in C:\Reshma\FinalCertification\LatestFSEFinals\ProjectManagerWebAPI\ProjectManager.DataLayer\ProjectManagerRepository.cs:line 97
+   at ProjectManager.BusinessLayer.ProjectManagerService.GetProject(Int32 projectID) in C:\Reshma\FinalCertification\LatestFSEFinals\ProjectManagerWebAPI\ProjectManager.BusinessLayer\ProjectManagerService.cs:line 116
+   at ProjectManager.BusinessLayer.Tests.ProjectManagerServiceTests.GetProjectForInValidDataTest() in C:\Reshma\FinalCertification\LatestFSEFinals\ProjectManagerWebAPI\ProjectManager.BusinessLayer.Tests\ProjectManagerServiceTests.cs:line 220
+--SqlException
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.<>c.<Open>b__13_0(DbConnection t, DbConnectionInterceptionContext c)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext](TTarget target, Action`2 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.Open(DbConnection connection, DbInterceptionContext interceptionContext)
+   at System.Data.Entity.Core.EntityClient.EntityConnection.<Open>b__55_0()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.<>c__DisplayClass2_0.<Execute>b__0()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute(Action operation)
+   at System.Data.Entity.Core.EntityClient.EntityConnection.Open()
+--Win32Exception
+]]></stack-trace>
+              </failure>
+            </test-case>
+            <test-case id="0-1015" name="GetProjectsTest" fullname="ProjectManager.BusinessLayer.Tests.ProjectManagerServiceTests.GetProjectsTest" methodname="GetProjectsTest" classname="ProjectManager.BusinessLayer.Tests.ProjectManagerServiceTests" runstate="Runnable" seed="1014763566" result="Failed" label="Error" start-time="2019-09-24 16:09:07Z" end-time="2019-09-24 16:09:07Z" duration="0.011589" asserts="0">
+              <failure>
+                <message><![CDATA[System.Data.Entity.Core.EntityException : The underlying provider failed on Open.
+  ----> System.Data.SqlClient.SqlException : A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+Data:
+  HelpLink.ProdName: Microsoft SQL Server
+  HelpLink.EvtSrc: MSSQLServer
+  HelpLink.EvtID: 53
+  HelpLink.BaseHelpUrl: http://go.microsoft.com/fwlink
+  HelpLink.LinkId: 20476
+
+  ----> System.ComponentModel.Win32Exception : The network path was not found]]></message>
+                <stack-trace><![CDATA[   at System.Data.Entity.Core.EntityClient.EntityConnection.Open()
+   at System.Data.Entity.Core.Objects.ObjectContext.EnsureConnection(Boolean shouldMonitorTransactions)
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass41_0.<GetResults>b__0()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__31_0()
+   at System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at ProjectManager.DataLayer.ProjectManagerRepository.GetProjects() in C:\Reshma\FinalCertification\LatestFSEFinals\ProjectManagerWebAPI\ProjectManager.DataLayer\ProjectManagerRepository.cs:line 92
+   at ProjectManager.BusinessLayer.ProjectManagerService.GetProjects() in C:\Reshma\FinalCertification\LatestFSEFinals\ProjectManagerWebAPI\ProjectManager.BusinessLayer\ProjectManagerService.cs:line 67
+   at ProjectManager.BusinessLayer.Tests.ProjectManagerServiceTests.GetProjectsTest() in C:\Reshma\FinalCertification\LatestFSEFinals\ProjectManagerWebAPI\ProjectManager.BusinessLayer.Tests\ProjectManagerServiceTests.cs:line 178
+--SqlException
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.<>c.<Open>b__13_0(DbConnection t, DbConnectionInterceptionContext c)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext](TTarget target, Action`2 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.Open(DbConnection connection, DbInterceptionContext interceptionContext)
+   at System.Data.Entity.Core.EntityClient.EntityConnection.<Open>b__55_0()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.<>c__DisplayClass2_0.<Execute>b__0()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute(Action operation)
+   at System.Data.Entity.Core.EntityClient.EntityConnection.Open()
+--Win32Exception
+]]></stack-trace>
+              </failure>
+            </test-case>
+            <test-case id="0-1020" name="GetProjectTestForValidDataTest" fullname="ProjectManager.BusinessLayer.Tests.ProjectManagerServiceTests.GetProjectTestForValidDataTest" methodname="GetProjectTestForValidDataTest" classname="ProjectManager.BusinessLayer.Tests.ProjectManagerServiceTests" runstate="Runnable" seed="581294979" result="Failed" label="Error" start-time="2019-09-24 16:09:07Z" end-time="2019-09-24 16:09:07Z" duration="0.007226" asserts="0">
+              <failure>
+                <message><![CDATA[System.Data.Entity.Core.EntityException : The underlying provider failed on Open.
+  ----> System.Data.SqlClient.SqlException : A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+Data:
+  HelpLink.ProdName: Microsoft SQL Server
+  HelpLink.EvtSrc: MSSQLServer
+  HelpLink.EvtID: 53
+  HelpLink.BaseHelpUrl: http://go.microsoft.com/fwlink
+  HelpLink.LinkId: 20476
+
+  ----> System.ComponentModel.Win32Exception : The network path was not found]]></message>
+                <stack-trace><![CDATA[   at System.Data.Entity.Core.EntityClient.EntityConnection.Open()
+   at System.Data.Entity.Core.Objects.ObjectContext.EnsureConnection(Boolean shouldMonitorTransactions)
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass41_0.<GetResults>b__0()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__31_0()
+   at System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.<>c__14`1.<GetElementFunction>b__14_1(IEnumerable`1 sequence)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.ExecuteSingle[TResult](IEnumerable`1 query, Expression queryRoot)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.System.Linq.IQueryProvider.Execute[TResult](Expression expression)
+   at System.Data.Entity.Internal.Linq.DbQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source)
+   at ProjectManager.DataLayer.ProjectManagerRepository.GetProject(Int32 projectID) in C:\Reshma\FinalCertification\LatestFSEFinals\ProjectManagerWebAPI\ProjectManager.DataLayer\ProjectManagerRepository.cs:line 97
+   at ProjectManager.BusinessLayer.ProjectManagerService.GetProject(Int32 projectID) in C:\Reshma\FinalCertification\LatestFSEFinals\ProjectManagerWebAPI\ProjectManager.BusinessLayer\ProjectManagerService.cs:line 116
+   at ProjectManager.BusinessLayer.Tests.ProjectManagerServiceTests.GetProjectTestForValidDataTest() in C:\Reshma\FinalCertification\LatestFSEFinals\ProjectManagerWebAPI\ProjectManager.BusinessLayer.Tests\ProjectManagerServiceTests.cs:line 213
+--SqlException
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.<>c.<Open>b__13_0(DbConnection t, DbConnectionInterceptionContext c)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext](TTarget target, Action`2 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.Open(DbConnection connection, DbInterceptionContext interceptionContext)
+   at System.Data.Entity.Core.EntityClient.EntityConnection.<Open>b__55_0()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.<>c__DisplayClass2_0.<Execute>b__0()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute(Action operation)
+   at System.Data.Entity.Core.EntityClient.EntityConnection.Open()
+--Win32Exception
+]]></stack-trace>
+              </failure>
+            </test-case>
+            <test-case id="0-1013" name="GetTasksTest" fullname="ProjectManager.BusinessLayer.Tests.ProjectManagerServiceTests.GetTasksTest" methodname="GetTasksTest" classname="ProjectManager.BusinessLayer.Tests.ProjectManagerServiceTests" runstate="Runnable" seed="2053015932" result="Failed" label="Error" start-time="2019-09-24 16:09:07Z" end-time="2019-09-24 16:09:07Z" duration="0.008544" asserts="0">
+              <failure>
+                <message><![CDATA[System.Data.Entity.Core.EntityException : The underlying provider failed on Open.
+  ----> System.Data.SqlClient.SqlException : A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+Data:
+  HelpLink.ProdName: Microsoft SQL Server
+  HelpLink.EvtSrc: MSSQLServer
+  HelpLink.EvtID: 53
+  HelpLink.BaseHelpUrl: http://go.microsoft.com/fwlink
+  HelpLink.LinkId: 20476
+
+  ----> System.ComponentModel.Win32Exception : The network path was not found]]></message>
+                <stack-trace><![CDATA[   at System.Data.Entity.Core.EntityClient.EntityConnection.Open()
+   at System.Data.Entity.Core.Objects.ObjectContext.EnsureConnection(Boolean shouldMonitorTransactions)
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass41_0.<GetResults>b__0()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__31_0()
+   at System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at ProjectManager.DataLayer.ProjectManagerRepository.GetTasks() in C:\Reshma\FinalCertification\LatestFSEFinals\ProjectManagerWebAPI\ProjectManager.DataLayer\ProjectManagerRepository.cs:line 20
+   at ProjectManager.BusinessLayer.ProjectManagerService.GetTasks() in C:\Reshma\FinalCertification\LatestFSEFinals\ProjectManagerWebAPI\ProjectManager.BusinessLayer\ProjectManagerService.cs:line 40
+   at ProjectManager.BusinessLayer.Tests.ProjectManagerServiceTests.GetTasksTest() in C:\Reshma\FinalCertification\LatestFSEFinals\ProjectManagerWebAPI\ProjectManager.BusinessLayer.Tests\ProjectManagerServiceTests.cs:line 164
+--SqlException
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.<>c.<Open>b__13_0(DbConnection t, DbConnectionInterceptionContext c)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext](TTarget target, Action`2 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.Open(DbConnection connection, DbInterceptionContext interceptionContext)
+   at System.Data.Entity.Core.EntityClient.EntityConnection.<Open>b__55_0()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.<>c__DisplayClass2_0.<Execute>b__0()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute(Action operation)
+   at System.Data.Entity.Core.EntityClient.EntityConnection.Open()
+--Win32Exception
+]]></stack-trace>
+              </failure>
+            </test-case>
+            <test-case id="0-1017" name="GetTaskTestForInValidDataTest" fullname="ProjectManager.BusinessLayer.Tests.ProjectManagerServiceTests.GetTaskTestForInValidDataTest" methodname="GetTaskTestForInValidDataTest" classname="ProjectManager.BusinessLayer.Tests.ProjectManagerServiceTests" runstate="Runnable" seed="1516755587" result="Failed" label="Error" start-time="2019-09-24 16:09:07Z" end-time="2019-09-24 16:09:07Z" duration="0.011671" asserts="0">
+              <failure>
+                <message><![CDATA[System.Data.Entity.Core.EntityException : The underlying provider failed on Open.
+  ----> System.Data.SqlClient.SqlException : A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+Data:
+  HelpLink.ProdName: Microsoft SQL Server
+  HelpLink.EvtSrc: MSSQLServer
+  HelpLink.EvtID: 53
+  HelpLink.BaseHelpUrl: http://go.microsoft.com/fwlink
+  HelpLink.LinkId: 20476
+
+  ----> System.ComponentModel.Win32Exception : The network path was not found]]></message>
+                <stack-trace><![CDATA[   at System.Data.Entity.Core.EntityClient.EntityConnection.Open()
+   at System.Data.Entity.Core.Objects.ObjectContext.EnsureConnection(Boolean shouldMonitorTransactions)
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass41_0.<GetResults>b__0()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__31_0()
+   at System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.<>c__14`1.<GetElementFunction>b__14_1(IEnumerable`1 sequence)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.ExecuteSingle[TResult](IEnumerable`1 query, Expression queryRoot)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.System.Linq.IQueryProvider.Execute[TResult](Expression expression)
+   at System.Data.Entity.Internal.Linq.DbQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source)
+   at ProjectManager.DataLayer.ProjectManagerRepository.GetTask(Int32 taskID) in C:\Reshma\FinalCertification\LatestFSEFinals\ProjectManagerWebAPI\ProjectManager.DataLayer\ProjectManagerRepository.cs:line 25
+   at ProjectManager.BusinessLayer.ProjectManagerService.GetTask(Int32 taskID) in C:\Reshma\FinalCertification\LatestFSEFinals\ProjectManagerWebAPI\ProjectManager.BusinessLayer\ProjectManagerService.cs:line 126
+   at ProjectManager.BusinessLayer.Tests.ProjectManagerServiceTests.GetTaskTestForInValidDataTest() in C:\Reshma\FinalCertification\LatestFSEFinals\ProjectManagerWebAPI\ProjectManager.BusinessLayer.Tests\ProjectManagerServiceTests.cs:line 192
+--SqlException
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.<>c.<Open>b__13_0(DbConnection t, DbConnectionInterceptionContext c)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext](TTarget target, Action`2 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.Open(DbConnection connection, DbInterceptionContext interceptionContext)
+   at System.Data.Entity.Core.EntityClient.EntityConnection.<Open>b__55_0()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.<>c__DisplayClass2_0.<Execute>b__0()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute(Action operation)
+   at System.Data.Entity.Core.EntityClient.EntityConnection.Open()
+--Win32Exception
+]]></stack-trace>
+              </failure>
+            </test-case>
+            <test-case id="0-1016" name="GetTaskTestForValidDataTest" fullname="ProjectManager.BusinessLayer.Tests.ProjectManagerServiceTests.GetTaskTestForValidDataTest" methodname="GetTaskTestForValidDataTest" classname="ProjectManager.BusinessLayer.Tests.ProjectManagerServiceTests" runstate="Runnable" seed="965490203" result="Failed" label="Error" start-time="2019-09-24 16:09:07Z" end-time="2019-09-24 16:09:07Z" duration="0.008231" asserts="0">
+              <failure>
+                <message><![CDATA[System.Data.Entity.Core.EntityException : The underlying provider failed on Open.
+  ----> System.Data.SqlClient.SqlException : A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+Data:
+  HelpLink.ProdName: Microsoft SQL Server
+  HelpLink.EvtSrc: MSSQLServer
+  HelpLink.EvtID: 53
+  HelpLink.BaseHelpUrl: http://go.microsoft.com/fwlink
+  HelpLink.LinkId: 20476
+
+  ----> System.ComponentModel.Win32Exception : The network path was not found]]></message>
+                <stack-trace><![CDATA[   at System.Data.Entity.Core.EntityClient.EntityConnection.Open()
+   at System.Data.Entity.Core.Objects.ObjectContext.EnsureConnection(Boolean shouldMonitorTransactions)
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass41_0.<GetResults>b__0()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__31_0()
+   at System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.<>c__14`1.<GetElementFunction>b__14_1(IEnumerable`1 sequence)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.ExecuteSingle[TResult](IEnumerable`1 query, Expression queryRoot)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.System.Linq.IQueryProvider.Execute[TResult](Expression expression)
+   at System.Data.Entity.Internal.Linq.DbQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source)
+   at ProjectManager.DataLayer.ProjectManagerRepository.GetTask(Int32 taskID) in C:\Reshma\FinalCertification\LatestFSEFinals\ProjectManagerWebAPI\ProjectManager.DataLayer\ProjectManagerRepository.cs:line 25
+   at ProjectManager.BusinessLayer.ProjectManagerService.GetTask(Int32 taskID) in C:\Reshma\FinalCertification\LatestFSEFinals\ProjectManagerWebAPI\ProjectManager.BusinessLayer\ProjectManagerService.cs:line 126
+   at ProjectManager.BusinessLayer.Tests.ProjectManagerServiceTests.GetTaskTestForValidDataTest() in C:\Reshma\FinalCertification\LatestFSEFinals\ProjectManagerWebAPI\ProjectManager.BusinessLayer.Tests\ProjectManagerServiceTests.cs:line 185
+--SqlException
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.<>c.<Open>b__13_0(DbConnection t, DbConnectionInterceptionContext c)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext](TTarget target, Action`2 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.Open(DbConnection connection, DbInterceptionContext interceptionContext)
+   at System.Data.Entity.Core.EntityClient.EntityConnection.<Open>b__55_0()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.<>c__DisplayClass2_0.<Execute>b__0()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute(Action operation)
+   at System.Data.Entity.Core.EntityClient.EntityConnection.Open()
+--Win32Exception
+]]></stack-trace>
+              </failure>
+            </test-case>
+            <test-case id="0-1014" name="GetUsersTest" fullname="ProjectManager.BusinessLayer.Tests.ProjectManagerServiceTests.GetUsersTest" methodname="GetUsersTest" classname="ProjectManager.BusinessLayer.Tests.ProjectManagerServiceTests" runstate="Runnable" seed="285526784" result="Failed" label="Error" start-time="2019-09-24 16:09:07Z" end-time="2019-09-24 16:09:07Z" duration="0.008837" asserts="0">
+              <failure>
+                <message><![CDATA[System.Data.Entity.Core.EntityException : The underlying provider failed on Open.
+  ----> System.Data.SqlClient.SqlException : A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+Data:
+  HelpLink.ProdName: Microsoft SQL Server
+  HelpLink.EvtSrc: MSSQLServer
+  HelpLink.EvtID: 53
+  HelpLink.BaseHelpUrl: http://go.microsoft.com/fwlink
+  HelpLink.LinkId: 20476
+
+  ----> System.ComponentModel.Win32Exception : The network path was not found]]></message>
+                <stack-trace><![CDATA[   at System.Data.Entity.Core.EntityClient.EntityConnection.Open()
+   at System.Data.Entity.Core.Objects.ObjectContext.EnsureConnection(Boolean shouldMonitorTransactions)
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass41_0.<GetResults>b__0()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__31_0()
+   at System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at ProjectManager.DataLayer.ProjectManagerRepository.GetUsers() in C:\Reshma\FinalCertification\LatestFSEFinals\ProjectManagerWebAPI\ProjectManager.DataLayer\ProjectManagerRepository.cs:line 174
+   at ProjectManager.BusinessLayer.ProjectManagerService.GetUsers() in C:\Reshma\FinalCertification\LatestFSEFinals\ProjectManagerWebAPI\ProjectManager.BusinessLayer\ProjectManagerService.cs:line 53
+   at ProjectManager.BusinessLayer.Tests.ProjectManagerServiceTests.GetUsersTest() in C:\Reshma\FinalCertification\LatestFSEFinals\ProjectManagerWebAPI\ProjectManager.BusinessLayer.Tests\ProjectManagerServiceTests.cs:line 171
+--SqlException
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.<>c.<Open>b__13_0(DbConnection t, DbConnectionInterceptionContext c)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext](TTarget target, Action`2 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.Open(DbConnection connection, DbInterceptionContext interceptionContext)
+   at System.Data.Entity.Core.EntityClient.EntityConnection.<Open>b__55_0()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.<>c__DisplayClass2_0.<Execute>b__0()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute(Action operation)
+   at System.Data.Entity.Core.EntityClient.EntityConnection.Open()
+--Win32Exception
+]]></stack-trace>
+              </failure>
+            </test-case>
+            <test-case id="0-1019" name="GetUserTestForInValidDataTest" fullname="ProjectManager.BusinessLayer.Tests.ProjectManagerServiceTests.GetUserTestForInValidDataTest" methodname="GetUserTestForInValidDataTest" classname="ProjectManager.BusinessLayer.Tests.ProjectManagerServiceTests" runstate="Runnable" seed="1736089428" result="Failed" label="Error" start-time="2019-09-24 16:09:07Z" end-time="2019-09-24 16:09:07Z" duration="0.011311" asserts="0">
+              <failure>
+                <message><![CDATA[System.Data.Entity.Core.EntityException : The underlying provider failed on Open.
+  ----> System.Data.SqlClient.SqlException : A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+Data:
+  HelpLink.ProdName: Microsoft SQL Server
+  HelpLink.EvtSrc: MSSQLServer
+  HelpLink.EvtID: 53
+  HelpLink.BaseHelpUrl: http://go.microsoft.com/fwlink
+  HelpLink.LinkId: 20476
+
+  ----> System.ComponentModel.Win32Exception : The network path was not found]]></message>
+                <stack-trace><![CDATA[   at System.Data.Entity.Core.EntityClient.EntityConnection.Open()
+   at System.Data.Entity.Core.Objects.ObjectContext.EnsureConnection(Boolean shouldMonitorTransactions)
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass41_0.<GetResults>b__0()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__31_0()
+   at System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.<>c__14`1.<GetElementFunction>b__14_1(IEnumerable`1 sequence)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.ExecuteSingle[TResult](IEnumerable`1 query, Expression queryRoot)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.System.Linq.IQueryProvider.Execute[TResult](Expression expression)
+   at System.Data.Entity.Internal.Linq.DbQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source)
+   at ProjectManager.DataLayer.ProjectManagerRepository.GetUser(Int32 userID) in C:\Reshma\FinalCertification\LatestFSEFinals\ProjectManagerWebAPI\ProjectManager.DataLayer\ProjectManagerRepository.cs:line 179
+   at ProjectManager.BusinessLayer.ProjectManagerService.GetUser(Int32 userID) in C:\Reshma\FinalCertification\LatestFSEFinals\ProjectManagerWebAPI\ProjectManager.BusinessLayer\ProjectManagerService.cs:line 106
+   at ProjectManager.BusinessLayer.Tests.ProjectManagerServiceTests.GetUserTestForInValidDataTest() in C:\Reshma\FinalCertification\LatestFSEFinals\ProjectManagerWebAPI\ProjectManager.BusinessLayer.Tests\ProjectManagerServiceTests.cs:line 206
+--SqlException
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.<>c.<Open>b__13_0(DbConnection t, DbConnectionInterceptionContext c)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext](TTarget target, Action`2 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.Open(DbConnection connection, DbInterceptionContext interceptionContext)
+   at System.Data.Entity.Core.EntityClient.EntityConnection.<Open>b__55_0()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.<>c__DisplayClass2_0.<Execute>b__0()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute(Action operation)
+   at System.Data.Entity.Core.EntityClient.EntityConnection.Open()
+--Win32Exception
+]]></stack-trace>
+              </failure>
+            </test-case>
+            <test-case id="0-1018" name="GetUserTestForValidDataTest" fullname="ProjectManager.BusinessLayer.Tests.ProjectManagerServiceTests.GetUserTestForValidDataTest" methodname="GetUserTestForValidDataTest" classname="ProjectManager.BusinessLayer.Tests.ProjectManagerServiceTests" runstate="Runnable" seed="754719136" result="Failed" label="Error" start-time="2019-09-24 16:09:07Z" end-time="2019-09-24 16:09:07Z" duration="0.007047" asserts="0">
+              <failure>
+                <message><![CDATA[System.Data.Entity.Core.EntityException : The underlying provider failed on Open.
+  ----> System.Data.SqlClient.SqlException : A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+Data:
+  HelpLink.ProdName: Microsoft SQL Server
+  HelpLink.EvtSrc: MSSQLServer
+  HelpLink.EvtID: 53
+  HelpLink.BaseHelpUrl: http://go.microsoft.com/fwlink
+  HelpLink.LinkId: 20476
+
+  ----> System.ComponentModel.Win32Exception : The network path was not found]]></message>
+                <stack-trace><![CDATA[   at System.Data.Entity.Core.EntityClient.EntityConnection.Open()
+   at System.Data.Entity.Core.Objects.ObjectContext.EnsureConnection(Boolean shouldMonitorTransactions)
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass41_0.<GetResults>b__0()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__31_0()
+   at System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.<>c__14`1.<GetElementFunction>b__14_1(IEnumerable`1 sequence)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.ExecuteSingle[TResult](IEnumerable`1 query, Expression queryRoot)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.System.Linq.IQueryProvider.Execute[TResult](Expression expression)
+   at System.Data.Entity.Internal.Linq.DbQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source)
+   at ProjectManager.DataLayer.ProjectManagerRepository.GetUser(Int32 userID) in C:\Reshma\FinalCertification\LatestFSEFinals\ProjectManagerWebAPI\ProjectManager.DataLayer\ProjectManagerRepository.cs:line 179
+   at ProjectManager.BusinessLayer.ProjectManagerService.GetUser(Int32 userID) in C:\Reshma\FinalCertification\LatestFSEFinals\ProjectManagerWebAPI\ProjectManager.BusinessLayer\ProjectManagerService.cs:line 106
+   at ProjectManager.BusinessLayer.Tests.ProjectManagerServiceTests.GetUserTestForValidDataTest() in C:\Reshma\FinalCertification\LatestFSEFinals\ProjectManagerWebAPI\ProjectManager.BusinessLayer.Tests\ProjectManagerServiceTests.cs:line 199
+--SqlException
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.<>c.<Open>b__13_0(DbConnection t, DbConnectionInterceptionContext c)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext](TTarget target, Action`2 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.Open(DbConnection connection, DbInterceptionContext interceptionContext)
+   at System.Data.Entity.Core.EntityClient.EntityConnection.<Open>b__55_0()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.<>c__DisplayClass2_0.<Execute>b__0()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute(Action operation)
+   at System.Data.Entity.Core.EntityClient.EntityConnection.Open()
+--Win32Exception
+]]></stack-trace>
+              </failure>
+            </test-case>
+            <test-case id="0-1026" name="SearchProjectsForInValidDataTest" fullname="ProjectManager.BusinessLayer.Tests.ProjectManagerServiceTests.SearchProjectsForInValidDataTest" methodname="SearchProjectsForInValidDataTest" classname="ProjectManager.BusinessLayer.Tests.ProjectManagerServiceTests" runstate="Runnable" seed="1974547224" result="Failed" label="Error" start-time="2019-09-24 16:09:07Z" end-time="2019-09-24 16:09:07Z" duration="0.011957" asserts="0">
+              <failure>
+                <message><![CDATA[System.Data.Entity.Core.EntityException : The underlying provider failed on Open.
+  ----> System.Data.SqlClient.SqlException : A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+Data:
+  HelpLink.ProdName: Microsoft SQL Server
+  HelpLink.EvtSrc: MSSQLServer
+  HelpLink.EvtID: 53
+  HelpLink.BaseHelpUrl: http://go.microsoft.com/fwlink
+  HelpLink.LinkId: 20476
+
+  ----> System.ComponentModel.Win32Exception : The network path was not found]]></message>
+                <stack-trace><![CDATA[   at System.Data.Entity.Core.EntityClient.EntityConnection.Open()
+   at System.Data.Entity.Core.Objects.ObjectContext.EnsureConnection(Boolean shouldMonitorTransactions)
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass41_0.<GetResults>b__0()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__31_0()
+   at System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at ProjectManager.DataLayer.ProjectManagerRepository.SearchProjects(String searchKeyWord, String sortBy) in C:\Reshma\FinalCertification\LatestFSEFinals\ProjectManagerWebAPI\ProjectManager.DataLayer\ProjectManagerRepository.cs:line 189
+   at ProjectManager.BusinessLayer.ProjectManagerService.SearchProjects(String searchKeyWord, String sortBy) in C:\Reshma\FinalCertification\LatestFSEFinals\ProjectManagerWebAPI\ProjectManager.BusinessLayer\ProjectManagerService.cs:line 93
+   at ProjectManager.BusinessLayer.Tests.ProjectManagerServiceTests.SearchProjectsForInValidDataTest() in C:\Reshma\FinalCertification\LatestFSEFinals\ProjectManagerWebAPI\ProjectManager.BusinessLayer.Tests\ProjectManagerServiceTests.cs:line 255
+--SqlException
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.<>c.<Open>b__13_0(DbConnection t, DbConnectionInterceptionContext c)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext](TTarget target, Action`2 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.Open(DbConnection connection, DbInterceptionContext interceptionContext)
+   at System.Data.Entity.Core.EntityClient.EntityConnection.<Open>b__55_0()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.<>c__DisplayClass2_0.<Execute>b__0()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute(Action operation)
+   at System.Data.Entity.Core.EntityClient.EntityConnection.Open()
+--Win32Exception
+]]></stack-trace>
+              </failure>
+            </test-case>
+            <test-case id="0-1027" name="SearchProjectsForNullTest" fullname="ProjectManager.BusinessLayer.Tests.ProjectManagerServiceTests.SearchProjectsForNullTest" methodname="SearchProjectsForNullTest" classname="ProjectManager.BusinessLayer.Tests.ProjectManagerServiceTests" runstate="Runnable" seed="673829773" result="Failed" label="Error" start-time="2019-09-24 16:09:07Z" end-time="2019-09-24 16:09:07Z" duration="0.007221" asserts="0">
+              <failure>
+                <message><![CDATA[System.Data.Entity.Core.EntityException : The underlying provider failed on Open.
+  ----> System.Data.SqlClient.SqlException : A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+Data:
+  HelpLink.ProdName: Microsoft SQL Server
+  HelpLink.EvtSrc: MSSQLServer
+  HelpLink.EvtID: 53
+  HelpLink.BaseHelpUrl: http://go.microsoft.com/fwlink
+  HelpLink.LinkId: 20476
+
+  ----> System.ComponentModel.Win32Exception : The network path was not found]]></message>
+                <stack-trace><![CDATA[   at System.Data.Entity.Core.EntityClient.EntityConnection.Open()
+   at System.Data.Entity.Core.Objects.ObjectContext.EnsureConnection(Boolean shouldMonitorTransactions)
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass41_0.<GetResults>b__0()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__31_0()
+   at System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at ProjectManager.DataLayer.ProjectManagerRepository.SearchProjects(String searchKeyWord, String sortBy) in C:\Reshma\FinalCertification\LatestFSEFinals\ProjectManagerWebAPI\ProjectManager.DataLayer\ProjectManagerRepository.cs:line 189
+   at ProjectManager.BusinessLayer.ProjectManagerService.SearchProjects(String searchKeyWord, String sortBy) in C:\Reshma\FinalCertification\LatestFSEFinals\ProjectManagerWebAPI\ProjectManager.BusinessLayer\ProjectManagerService.cs:line 93
+   at ProjectManager.BusinessLayer.Tests.ProjectManagerServiceTests.SearchProjectsForNullTest() in C:\Reshma\FinalCertification\LatestFSEFinals\ProjectManagerWebAPI\ProjectManager.BusinessLayer.Tests\ProjectManagerServiceTests.cs:line 262
+--SqlException
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.<>c.<Open>b__13_0(DbConnection t, DbConnectionInterceptionContext c)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext](TTarget target, Action`2 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.Open(DbConnection connection, DbInterceptionContext interceptionContext)
+   at System.Data.Entity.Core.EntityClient.EntityConnection.<Open>b__55_0()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.<>c__DisplayClass2_0.<Execute>b__0()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute(Action operation)
+   at System.Data.Entity.Core.EntityClient.EntityConnection.Open()
+--Win32Exception
+]]></stack-trace>
+              </failure>
+            </test-case>
+            <test-case id="0-1025" name="SearchProjectsForValidDataTest" fullname="ProjectManager.BusinessLayer.Tests.ProjectManagerServiceTests.SearchProjectsForValidDataTest" methodname="SearchProjectsForValidDataTest" classname="ProjectManager.BusinessLayer.Tests.ProjectManagerServiceTests" runstate="Runnable" seed="339290779" result="Failed" label="Error" start-time="2019-09-24 16:09:07Z" end-time="2019-09-24 16:09:07Z" duration="0.010512" asserts="0">
+              <failure>
+                <message><![CDATA[System.Data.Entity.Core.EntityException : The underlying provider failed on Open.
+  ----> System.Data.SqlClient.SqlException : A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+Data:
+  HelpLink.ProdName: Microsoft SQL Server
+  HelpLink.EvtSrc: MSSQLServer
+  HelpLink.EvtID: 53
+  HelpLink.BaseHelpUrl: http://go.microsoft.com/fwlink
+  HelpLink.LinkId: 20476
+
+  ----> System.ComponentModel.Win32Exception : The network path was not found]]></message>
+                <stack-trace><![CDATA[   at System.Data.Entity.Core.EntityClient.EntityConnection.Open()
+   at System.Data.Entity.Core.Objects.ObjectContext.EnsureConnection(Boolean shouldMonitorTransactions)
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass41_0.<GetResults>b__0()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__31_0()
+   at System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at ProjectManager.DataLayer.ProjectManagerRepository.SearchProjects(String searchKeyWord, String sortBy) in C:\Reshma\FinalCertification\LatestFSEFinals\ProjectManagerWebAPI\ProjectManager.DataLayer\ProjectManagerRepository.cs:line 189
+   at ProjectManager.BusinessLayer.ProjectManagerService.SearchProjects(String searchKeyWord, String sortBy) in C:\Reshma\FinalCertification\LatestFSEFinals\ProjectManagerWebAPI\ProjectManager.BusinessLayer\ProjectManagerService.cs:line 93
+   at ProjectManager.BusinessLayer.Tests.ProjectManagerServiceTests.SearchProjectsForValidDataTest() in C:\Reshma\FinalCertification\LatestFSEFinals\ProjectManagerWebAPI\ProjectManager.BusinessLayer.Tests\ProjectManagerServiceTests.cs:line 248
+--SqlException
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.<>c.<Open>b__13_0(DbConnection t, DbConnectionInterceptionContext c)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext](TTarget target, Action`2 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.Open(DbConnection connection, DbInterceptionContext interceptionContext)
+   at System.Data.Entity.Core.EntityClient.EntityConnection.<Open>b__55_0()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.<>c__DisplayClass2_0.<Execute>b__0()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute(Action operation)
+   at System.Data.Entity.Core.EntityClient.EntityConnection.Open()
+--Win32Exception
+]]></stack-trace>
+              </failure>
+            </test-case>
+            <test-case id="0-1023" name="SearchUsersForInValidDataTest" fullname="ProjectManager.BusinessLayer.Tests.ProjectManagerServiceTests.SearchUsersForInValidDataTest" methodname="SearchUsersForInValidDataTest" classname="ProjectManager.BusinessLayer.Tests.ProjectManagerServiceTests" runstate="Runnable" seed="1353668504" result="Failed" label="Error" start-time="2019-09-24 16:09:07Z" end-time="2019-09-24 16:09:07Z" duration="0.009691" asserts="0">
+              <failure>
+                <message><![CDATA[System.Data.Entity.Core.EntityException : The underlying provider failed on Open.
+  ----> System.Data.SqlClient.SqlException : A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+Data:
+  HelpLink.ProdName: Microsoft SQL Server
+  HelpLink.EvtSrc: MSSQLServer
+  HelpLink.EvtID: 53
+  HelpLink.BaseHelpUrl: http://go.microsoft.com/fwlink
+  HelpLink.LinkId: 20476
+
+  ----> System.ComponentModel.Win32Exception : The network path was not found]]></message>
+                <stack-trace><![CDATA[   at System.Data.Entity.Core.EntityClient.EntityConnection.Open()
+   at System.Data.Entity.Core.Objects.ObjectContext.EnsureConnection(Boolean shouldMonitorTransactions)
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass41_0.<GetResults>b__0()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__31_0()
+   at System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at ProjectManager.DataLayer.ProjectManagerRepository.SearchUsers(String searchKeyWord, String sortBy) in C:\Reshma\FinalCertification\LatestFSEFinals\ProjectManagerWebAPI\ProjectManager.DataLayer\ProjectManagerRepository.cs:line 184
+   at ProjectManager.BusinessLayer.ProjectManagerService.SearchUsers(String searchKeyWord, String sortBy) in C:\Reshma\FinalCertification\LatestFSEFinals\ProjectManagerWebAPI\ProjectManager.BusinessLayer\ProjectManagerService.cs:line 80
+   at ProjectManager.BusinessLayer.Tests.ProjectManagerServiceTests.SearchUsersForInValidDataTest() in C:\Reshma\FinalCertification\LatestFSEFinals\ProjectManagerWebAPI\ProjectManager.BusinessLayer.Tests\ProjectManagerServiceTests.cs:line 234
+--SqlException
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.<>c.<Open>b__13_0(DbConnection t, DbConnectionInterceptionContext c)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext](TTarget target, Action`2 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.Open(DbConnection connection, DbInterceptionContext interceptionContext)
+   at System.Data.Entity.Core.EntityClient.EntityConnection.<Open>b__55_0()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.<>c__DisplayClass2_0.<Execute>b__0()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute(Action operation)
+   at System.Data.Entity.Core.EntityClient.EntityConnection.Open()
+--Win32Exception
+]]></stack-trace>
+              </failure>
+            </test-case>
+            <test-case id="0-1024" name="SearchUsersForNullTest" fullname="ProjectManager.BusinessLayer.Tests.ProjectManagerServiceTests.SearchUsersForNullTest" methodname="SearchUsersForNullTest" classname="ProjectManager.BusinessLayer.Tests.ProjectManagerServiceTests" runstate="Runnable" seed="724203933" result="Failed" label="Error" start-time="2019-09-24 16:09:07Z" end-time="2019-09-24 16:09:07Z" duration="0.009462" asserts="0">
+              <failure>
+                <message><![CDATA[System.Data.Entity.Core.EntityException : The underlying provider failed on Open.
+  ----> System.Data.SqlClient.SqlException : A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+Data:
+  HelpLink.ProdName: Microsoft SQL Server
+  HelpLink.EvtSrc: MSSQLServer
+  HelpLink.EvtID: 53
+  HelpLink.BaseHelpUrl: http://go.microsoft.com/fwlink
+  HelpLink.LinkId: 20476
+
+  ----> System.ComponentModel.Win32Exception : The network path was not found]]></message>
+                <stack-trace><![CDATA[   at System.Data.Entity.Core.EntityClient.EntityConnection.Open()
+   at System.Data.Entity.Core.Objects.ObjectContext.EnsureConnection(Boolean shouldMonitorTransactions)
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass41_0.<GetResults>b__0()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__31_0()
+   at System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at ProjectManager.DataLayer.ProjectManagerRepository.SearchUsers(String searchKeyWord, String sortBy) in C:\Reshma\FinalCertification\LatestFSEFinals\ProjectManagerWebAPI\ProjectManager.DataLayer\ProjectManagerRepository.cs:line 184
+   at ProjectManager.BusinessLayer.ProjectManagerService.SearchUsers(String searchKeyWord, String sortBy) in C:\Reshma\FinalCertification\LatestFSEFinals\ProjectManagerWebAPI\ProjectManager.BusinessLayer\ProjectManagerService.cs:line 80
+   at ProjectManager.BusinessLayer.Tests.ProjectManagerServiceTests.SearchUsersForNullTest() in C:\Reshma\FinalCertification\LatestFSEFinals\ProjectManagerWebAPI\ProjectManager.BusinessLayer.Tests\ProjectManagerServiceTests.cs:line 241
+--SqlException
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.<>c.<Open>b__13_0(DbConnection t, DbConnectionInterceptionContext c)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext](TTarget target, Action`2 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.Open(DbConnection connection, DbInterceptionContext interceptionContext)
+   at System.Data.Entity.Core.EntityClient.EntityConnection.<Open>b__55_0()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.<>c__DisplayClass2_0.<Execute>b__0()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute(Action operation)
+   at System.Data.Entity.Core.EntityClient.EntityConnection.Open()
+--Win32Exception
+]]></stack-trace>
+              </failure>
+            </test-case>
+            <test-case id="0-1022" name="SearchUsersForValidDataTest" fullname="ProjectManager.BusinessLayer.Tests.ProjectManagerServiceTests.SearchUsersForValidDataTest" methodname="SearchUsersForValidDataTest" classname="ProjectManager.BusinessLayer.Tests.ProjectManagerServiceTests" runstate="Runnable" seed="2034462934" result="Failed" label="Error" start-time="2019-09-24 16:09:07Z" end-time="2019-09-24 16:09:07Z" duration="0.007291" asserts="0">
+              <failure>
+                <message><![CDATA[System.Data.Entity.Core.EntityException : The underlying provider failed on Open.
+  ----> System.Data.SqlClient.SqlException : A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+Data:
+  HelpLink.ProdName: Microsoft SQL Server
+  HelpLink.EvtSrc: MSSQLServer
+  HelpLink.EvtID: 53
+  HelpLink.BaseHelpUrl: http://go.microsoft.com/fwlink
+  HelpLink.LinkId: 20476
+
+  ----> System.ComponentModel.Win32Exception : The network path was not found]]></message>
+                <stack-trace><![CDATA[   at System.Data.Entity.Core.EntityClient.EntityConnection.Open()
+   at System.Data.Entity.Core.Objects.ObjectContext.EnsureConnection(Boolean shouldMonitorTransactions)
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass41_0.<GetResults>b__0()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__31_0()
+   at System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at ProjectManager.DataLayer.ProjectManagerRepository.SearchUsers(String searchKeyWord, String sortBy) in C:\Reshma\FinalCertification\LatestFSEFinals\ProjectManagerWebAPI\ProjectManager.DataLayer\ProjectManagerRepository.cs:line 184
+   at ProjectManager.BusinessLayer.ProjectManagerService.SearchUsers(String searchKeyWord, String sortBy) in C:\Reshma\FinalCertification\LatestFSEFinals\ProjectManagerWebAPI\ProjectManager.BusinessLayer\ProjectManagerService.cs:line 80
+   at ProjectManager.BusinessLayer.Tests.ProjectManagerServiceTests.SearchUsersForValidDataTest() in C:\Reshma\FinalCertification\LatestFSEFinals\ProjectManagerWebAPI\ProjectManager.BusinessLayer.Tests\ProjectManagerServiceTests.cs:line 227
+--SqlException
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.<>c.<Open>b__13_0(DbConnection t, DbConnectionInterceptionContext c)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext](TTarget target, Action`2 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.Open(DbConnection connection, DbInterceptionContext interceptionContext)
+   at System.Data.Entity.Core.EntityClient.EntityConnection.<Open>b__55_0()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.<>c__DisplayClass2_0.<Execute>b__0()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute(Action operation)
+   at System.Data.Entity.Core.EntityClient.EntityConnection.Open()
+--Win32Exception
+]]></stack-trace>
+              </failure>
+            </test-case>
+            <test-case id="0-1038" name="UpdateParentTaskForInValidDataTest" fullname="ProjectManager.BusinessLayer.Tests.ProjectManagerServiceTests.UpdateParentTaskForInValidDataTest" methodname="UpdateParentTaskForInValidDataTest" classname="ProjectManager.BusinessLayer.Tests.ProjectManagerServiceTests" runstate="Runnable" seed="536072461" result="Passed" start-time="2019-09-24 16:09:07Z" end-time="2019-09-24 16:09:07Z" duration="0.011598" asserts="1" />
+            <test-case id="0-1039" name="UpdateParentTaskForNullTest" fullname="ProjectManager.BusinessLayer.Tests.ProjectManagerServiceTests.UpdateParentTaskForNullTest" methodname="UpdateParentTaskForNullTest" classname="ProjectManager.BusinessLayer.Tests.ProjectManagerServiceTests" runstate="Runnable" seed="1956206449" result="Passed" start-time="2019-09-24 16:09:07Z" end-time="2019-09-24 16:09:07Z" duration="0.006957" asserts="1" />
+            <test-case id="0-1037" name="UpdateParentTaskForValidDataTest" fullname="ProjectManager.BusinessLayer.Tests.ProjectManagerServiceTests.UpdateParentTaskForValidDataTest" methodname="UpdateParentTaskForValidDataTest" classname="ProjectManager.BusinessLayer.Tests.ProjectManagerServiceTests" runstate="Runnable" seed="565218764" result="Failed" start-time="2019-09-24 16:09:07Z" end-time="2019-09-24 16:09:07Z" duration="0.010653" asserts="1">
+              <failure>
+                <message><![CDATA[  Expected: True
+  But was:  False
+]]></message>
+                <stack-trace><![CDATA[   at ProjectManager.BusinessLayer.Tests.ProjectManagerServiceTests.UpdateParentTaskForValidDataTest() in C:\Reshma\FinalCertification\LatestFSEFinals\ProjectManagerWebAPI\ProjectManager.BusinessLayer.Tests\ProjectManagerServiceTests.cs:line 394
+]]></stack-trace>
+              </failure>
+              <assertions>
+                <assertion result="Failed">
+                  <message><![CDATA[  Expected: True
+  But was:  False
+]]></message>
+                  <stack-trace><![CDATA[   at ProjectManager.BusinessLayer.Tests.ProjectManagerServiceTests.UpdateParentTaskForValidDataTest() in C:\Reshma\FinalCertification\LatestFSEFinals\ProjectManagerWebAPI\ProjectManager.BusinessLayer.Tests\ProjectManagerServiceTests.cs:line 394
+]]></stack-trace>
+                </assertion>
+              </assertions>
+            </test-case>
+            <test-case id="0-1035" name="UpdateProjectForInValidDataTest" fullname="ProjectManager.BusinessLayer.Tests.ProjectManagerServiceTests.UpdateProjectForInValidDataTest" methodname="UpdateProjectForInValidDataTest" classname="ProjectManager.BusinessLayer.Tests.ProjectManagerServiceTests" runstate="Runnable" seed="660948027" result="Passed" start-time="2019-09-24 16:09:07Z" end-time="2019-09-24 16:09:07Z" duration="0.010577" asserts="1" />
+            <test-case id="0-1036" name="UpdateProjectForNullTest" fullname="ProjectManager.BusinessLayer.Tests.ProjectManagerServiceTests.UpdateProjectForNullTest" methodname="UpdateProjectForNullTest" classname="ProjectManager.BusinessLayer.Tests.ProjectManagerServiceTests" runstate="Runnable" seed="1912432672" result="Passed" start-time="2019-09-24 16:09:07Z" end-time="2019-09-24 16:09:07Z" duration="0.006984" asserts="1" />
+            <test-case id="0-1034" name="UpdateProjectForValidDataTest" fullname="ProjectManager.BusinessLayer.Tests.ProjectManagerServiceTests.UpdateProjectForValidDataTest" methodname="UpdateProjectForValidDataTest" classname="ProjectManager.BusinessLayer.Tests.ProjectManagerServiceTests" runstate="Runnable" seed="1788443804" result="Failed" start-time="2019-09-24 16:09:07Z" end-time="2019-09-24 16:09:07Z" duration="0.011802" asserts="1">
+              <failure>
+                <message><![CDATA[  Expected: True
+  But was:  False
+]]></message>
+                <stack-trace><![CDATA[   at ProjectManager.BusinessLayer.Tests.ProjectManagerServiceTests.UpdateProjectForValidDataTest() in C:\Reshma\FinalCertification\LatestFSEFinals\ProjectManagerWebAPI\ProjectManager.BusinessLayer.Tests\ProjectManagerServiceTests.cs:line 360
+]]></stack-trace>
+              </failure>
+              <assertions>
+                <assertion result="Failed">
+                  <message><![CDATA[  Expected: True
+  But was:  False
+]]></message>
+                  <stack-trace><![CDATA[   at ProjectManager.BusinessLayer.Tests.ProjectManagerServiceTests.UpdateProjectForValidDataTest() in C:\Reshma\FinalCertification\LatestFSEFinals\ProjectManagerWebAPI\ProjectManager.BusinessLayer.Tests\ProjectManagerServiceTests.cs:line 360
+]]></stack-trace>
+                </assertion>
+              </assertions>
+            </test-case>
+            <test-case id="0-1029" name="UpdateTaskForInValidDataTest" fullname="ProjectManager.BusinessLayer.Tests.ProjectManagerServiceTests.UpdateTaskForInValidDataTest" methodname="UpdateTaskForInValidDataTest" classname="ProjectManager.BusinessLayer.Tests.ProjectManagerServiceTests" runstate="Runnable" seed="710387918" result="Passed" start-time="2019-09-24 16:09:07Z" end-time="2019-09-24 16:09:07Z" duration="0.010620" asserts="1" />
+            <test-case id="0-1030" name="UpdateTaskForNullTest" fullname="ProjectManager.BusinessLayer.Tests.ProjectManagerServiceTests.UpdateTaskForNullTest" methodname="UpdateTaskForNullTest" classname="ProjectManager.BusinessLayer.Tests.ProjectManagerServiceTests" runstate="Runnable" seed="1629021364" result="Passed" start-time="2019-09-24 16:09:07Z" end-time="2019-09-24 16:09:07Z" duration="0.009063" asserts="1" />
+            <test-case id="0-1028" name="UpdateTaskForValidDataTest" fullname="ProjectManager.BusinessLayer.Tests.ProjectManagerServiceTests.UpdateTaskForValidDataTest" methodname="UpdateTaskForValidDataTest" classname="ProjectManager.BusinessLayer.Tests.ProjectManagerServiceTests" runstate="Runnable" seed="1898411711" result="Failed" start-time="2019-09-24 16:09:07Z" end-time="2019-09-24 16:09:07Z" duration="0.010349" asserts="1">
+              <failure>
+                <message><![CDATA[  Expected: True
+  But was:  False
+]]></message>
+                <stack-trace><![CDATA[   at ProjectManager.BusinessLayer.Tests.ProjectManagerServiceTests.UpdateTaskForValidDataTest() in C:\Reshma\FinalCertification\LatestFSEFinals\ProjectManagerWebAPI\ProjectManager.BusinessLayer.Tests\ProjectManagerServiceTests.cs:line 281
+]]></stack-trace>
+              </failure>
+              <assertions>
+                <assertion result="Failed">
+                  <message><![CDATA[  Expected: True
+  But was:  False
+]]></message>
+                  <stack-trace><![CDATA[   at ProjectManager.BusinessLayer.Tests.ProjectManagerServiceTests.UpdateTaskForValidDataTest() in C:\Reshma\FinalCertification\LatestFSEFinals\ProjectManagerWebAPI\ProjectManager.BusinessLayer.Tests\ProjectManagerServiceTests.cs:line 281
+]]></stack-trace>
+                </assertion>
+              </assertions>
+            </test-case>
+            <test-case id="0-1032" name="UpdateUserForInValidDataTest" fullname="ProjectManager.BusinessLayer.Tests.ProjectManagerServiceTests.UpdateUserForInValidDataTest" methodname="UpdateUserForInValidDataTest" classname="ProjectManager.BusinessLayer.Tests.ProjectManagerServiceTests" runstate="Runnable" seed="386706249" result="Passed" start-time="2019-09-24 16:09:07Z" end-time="2019-09-24 16:09:07Z" duration="0.011902" asserts="1" />
+            <test-case id="0-1033" name="UpdateUserForNullTest" fullname="ProjectManager.BusinessLayer.Tests.ProjectManagerServiceTests.UpdateUserForNullTest" methodname="UpdateUserForNullTest" classname="ProjectManager.BusinessLayer.Tests.ProjectManagerServiceTests" runstate="Runnable" seed="1844380729" result="Passed" start-time="2019-09-24 16:09:07Z" end-time="2019-09-24 16:09:07Z" duration="0.006960" asserts="1" />
+            <test-case id="0-1031" name="UpdateUserForValidDataTest" fullname="ProjectManager.BusinessLayer.Tests.ProjectManagerServiceTests.UpdateUserForValidDataTest" methodname="UpdateUserForValidDataTest" classname="ProjectManager.BusinessLayer.Tests.ProjectManagerServiceTests" runstate="Runnable" seed="1988564314" result="Failed" start-time="2019-09-24 16:09:07Z" end-time="2019-09-24 16:09:07Z" duration="0.011676" asserts="1">
+              <failure>
+                <message><![CDATA[  Expected: True
+  But was:  False
+]]></message>
+                <stack-trace><![CDATA[   at ProjectManager.BusinessLayer.Tests.ProjectManagerServiceTests.UpdateUserForValidDataTest() in C:\Reshma\FinalCertification\LatestFSEFinals\ProjectManagerWebAPI\ProjectManager.BusinessLayer.Tests\ProjectManagerServiceTests.cs:line 322
+]]></stack-trace>
+              </failure>
+              <assertions>
+                <assertion result="Failed">
+                  <message><![CDATA[  Expected: True
+  But was:  False
+]]></message>
+                  <stack-trace><![CDATA[   at ProjectManager.BusinessLayer.Tests.ProjectManagerServiceTests.UpdateUserForValidDataTest() in C:\Reshma\FinalCertification\LatestFSEFinals\ProjectManagerWebAPI\ProjectManager.BusinessLayer.Tests\ProjectManagerServiceTests.cs:line 322
+]]></stack-trace>
+                </assertion>
+              </assertions>
+            </test-case>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

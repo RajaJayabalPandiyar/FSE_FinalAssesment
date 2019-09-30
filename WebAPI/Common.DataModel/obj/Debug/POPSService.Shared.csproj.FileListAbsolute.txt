@@ -1,0 +1,4 @@
+C:\Reshma\Personal\Cognizant\Learning\FSE\Assignments\POPSService\POPSService.Shared\bin\Debug\POPSService.Shared.dll
+C:\Reshma\Personal\Cognizant\Learning\FSE\Assignments\POPSService\POPSService.Shared\bin\Debug\POPSService.Shared.pdb
+C:\Reshma\Personal\Cognizant\Learning\FSE\Assignments\POPSService\POPSService.Shared\obj\Debug\POPSService.Shared.dll
+C:\Reshma\Personal\Cognizant\Learning\FSE\Assignments\POPSService\POPSService.Shared\obj\Debug\POPSService.Shared.pdb

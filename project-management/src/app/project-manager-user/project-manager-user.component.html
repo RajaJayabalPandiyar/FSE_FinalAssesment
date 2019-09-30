@@ -1,0 +1,45 @@
+<div class="col-md-6">
+  <form [formGroup]="addForm" novalidate class="form">
+
+    <div class="col-md-6">
+      <div class="form-group">
+        <label for="firstName">First Name:</label>
+        <input formControlName="firstName" placeholder="First Name" name="firstName" class="form-control"
+          id="firstName">
+        <div class="alert  alert-danger"
+          *ngIf="addForm.get('firstName').hasError('required') && addForm.get('firstName').touched">
+          First Name is required.
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="form-group">
+        <label for="lastName">Last Name:</label>
+        <input formControlName="lastName" placeholder="Last Name" name="lastName" class="form-control" id="lastName">
+        <div class="alert  alert-danger"
+          *ngIf="addForm.get('lastName').hasError('required') && addForm.get('lastName').touched">
+          Last Name is required.
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="form-group">
+        <label for="employeeID">Employee ID:</label>
+        <input formControlName="employeeID" placeholder="Employee ID" name="employeeID" class="form-control"
+          id="employeeID">
+        <div class="alert  alert-danger"
+          *ngIf="addForm.get('employeeID').hasError('required') && addForm.get('employeeID').touched">
+          Employee ID is required.
+        </div>
+      </div>
+    </div>
+    <div class="col-md-12">
+      <button class="btn btn-success" style="background-color: darksalmon" [disabled]='addForm.invalid' *ngIf="btnvisibility"
+        (click)="onSubmit()">Create</button>
+      <button class="btn btn-success" style="background-color: darksalmon"[disabled]='addForm.invalid' *ngIf="!btnvisibility"
+        (click)="onUpdate()">Update</button>
+      <button class="btn btn-success" style="background-color: darksalmon" (click)="onReset()">Clear</button>
+    </div>
+  </form>
+</div>
+<app-user-list></app-user-list>

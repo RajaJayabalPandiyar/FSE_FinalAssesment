@@ -1,0 +1,72 @@
+C:\00_Raja\LatestFSEFinals\WebAPI\ProjectManager.BusinessLayer.Tests\bin\Debug\BusinessLayer.TestProject.dll.config
+C:\00_Raja\LatestFSEFinals\WebAPI\ProjectManager.BusinessLayer.Tests\bin\Debug\BusinessLayer.TestProject.dll
+C:\00_Raja\LatestFSEFinals\WebAPI\ProjectManager.BusinessLayer.Tests\bin\Debug\BusinessLayer.TestProject.pdb
+C:\00_Raja\LatestFSEFinals\WebAPI\ProjectManager.BusinessLayer.Tests\bin\Debug\BusinessLayer.dll
+C:\00_Raja\LatestFSEFinals\WebAPI\ProjectManager.BusinessLayer.Tests\bin\Debug\Common.DataModel.dll
+C:\00_Raja\LatestFSEFinals\WebAPI\ProjectManager.BusinessLayer.Tests\bin\Debug\EntityFramework.dll
+C:\00_Raja\LatestFSEFinals\WebAPI\ProjectManager.BusinessLayer.Tests\bin\Debug\EntityFramework.SqlServer.dll
+C:\00_Raja\LatestFSEFinals\WebAPI\ProjectManager.BusinessLayer.Tests\bin\Debug\nunit.framework.dll
+C:\00_Raja\LatestFSEFinals\WebAPI\ProjectManager.BusinessLayer.Tests\bin\Debug\AutoMapper.dll
+C:\00_Raja\LatestFSEFinals\WebAPI\ProjectManager.BusinessLayer.Tests\bin\Debug\DataLayer.dll
+C:\00_Raja\LatestFSEFinals\WebAPI\ProjectManager.BusinessLayer.Tests\bin\Debug\BusinessLayer.pdb
+C:\00_Raja\LatestFSEFinals\WebAPI\ProjectManager.BusinessLayer.Tests\bin\Debug\BusinessLayer.dll.config
+C:\00_Raja\LatestFSEFinals\WebAPI\ProjectManager.BusinessLayer.Tests\bin\Debug\Common.DataModel.pdb
+C:\00_Raja\LatestFSEFinals\WebAPI\ProjectManager.BusinessLayer.Tests\bin\Debug\EntityFramework.xml
+C:\00_Raja\LatestFSEFinals\WebAPI\ProjectManager.BusinessLayer.Tests\bin\Debug\EntityFramework.SqlServer.xml
+C:\00_Raja\LatestFSEFinals\WebAPI\ProjectManager.BusinessLayer.Tests\bin\Debug\nunit.framework.pdb
+C:\00_Raja\LatestFSEFinals\WebAPI\ProjectManager.BusinessLayer.Tests\bin\Debug\nunit.framework.xml
+C:\00_Raja\LatestFSEFinals\WebAPI\ProjectManager.BusinessLayer.Tests\bin\Debug\AutoMapper.pdb
+C:\00_Raja\LatestFSEFinals\WebAPI\ProjectManager.BusinessLayer.Tests\bin\Debug\AutoMapper.xml
+C:\00_Raja\LatestFSEFinals\WebAPI\ProjectManager.BusinessLayer.Tests\bin\Debug\DataLayer.pdb
+C:\00_Raja\LatestFSEFinals\WebAPI\ProjectManager.BusinessLayer.Tests\bin\Debug\DataLayer.dll.config
+C:\00_Raja\LatestFSEFinals\WebAPI\ProjectManager.BusinessLayer.Tests\obj\Debug\BusinessLayer.TestProject.dll
+C:\00_Raja\LatestFSEFinals\WebAPI\ProjectManager.BusinessLayer.Tests\obj\Debug\BusinessLayer.TestProject.pdb
+C:\00_Raja\LatestFSEFinals\WebAPI\ProjectManager.BusinessLayer.Tests\obj\Debug\BusinessLayer.TestProject.csprojResolveAssemblyReference.cache
+C:\00_Raja\LatestFSEFinals\WebAPI - Copy\ProjectManager.BusinessLayer.Tests\bin\Debug\BusinessLayer.TestProject.dll.config
+C:\00_Raja\LatestFSEFinals\WebAPI - Copy\ProjectManager.BusinessLayer.Tests\bin\Debug\BusinessLayer.TestProject.dll
+C:\00_Raja\LatestFSEFinals\WebAPI - Copy\ProjectManager.BusinessLayer.Tests\bin\Debug\BusinessLayer.TestProject.pdb
+C:\00_Raja\LatestFSEFinals\WebAPI - Copy\ProjectManager.BusinessLayer.Tests\bin\Debug\BusinessLayer.dll
+C:\00_Raja\LatestFSEFinals\WebAPI - Copy\ProjectManager.BusinessLayer.Tests\bin\Debug\Common.DataModel.dll
+C:\00_Raja\LatestFSEFinals\WebAPI - Copy\ProjectManager.BusinessLayer.Tests\bin\Debug\EntityFramework.dll
+C:\00_Raja\LatestFSEFinals\WebAPI - Copy\ProjectManager.BusinessLayer.Tests\bin\Debug\EntityFramework.SqlServer.dll
+C:\00_Raja\LatestFSEFinals\WebAPI - Copy\ProjectManager.BusinessLayer.Tests\bin\Debug\nunit.framework.dll
+C:\00_Raja\LatestFSEFinals\WebAPI - Copy\ProjectManager.BusinessLayer.Tests\bin\Debug\AutoMapper.dll
+C:\00_Raja\LatestFSEFinals\WebAPI - Copy\ProjectManager.BusinessLayer.Tests\bin\Debug\DataLayer.dll
+C:\00_Raja\LatestFSEFinals\WebAPI - Copy\ProjectManager.BusinessLayer.Tests\bin\Debug\BusinessLayer.pdb
+C:\00_Raja\LatestFSEFinals\WebAPI - Copy\ProjectManager.BusinessLayer.Tests\bin\Debug\BusinessLayer.dll.config
+C:\00_Raja\LatestFSEFinals\WebAPI - Copy\ProjectManager.BusinessLayer.Tests\bin\Debug\Common.DataModel.pdb
+C:\00_Raja\LatestFSEFinals\WebAPI - Copy\ProjectManager.BusinessLayer.Tests\bin\Debug\EntityFramework.xml
+C:\00_Raja\LatestFSEFinals\WebAPI - Copy\ProjectManager.BusinessLayer.Tests\bin\Debug\EntityFramework.SqlServer.xml
+C:\00_Raja\LatestFSEFinals\WebAPI - Copy\ProjectManager.BusinessLayer.Tests\bin\Debug\nunit.framework.pdb
+C:\00_Raja\LatestFSEFinals\WebAPI - Copy\ProjectManager.BusinessLayer.Tests\bin\Debug\nunit.framework.xml
+C:\00_Raja\LatestFSEFinals\WebAPI - Copy\ProjectManager.BusinessLayer.Tests\bin\Debug\AutoMapper.pdb
+C:\00_Raja\LatestFSEFinals\WebAPI - Copy\ProjectManager.BusinessLayer.Tests\bin\Debug\AutoMapper.xml
+C:\00_Raja\LatestFSEFinals\WebAPI - Copy\ProjectManager.BusinessLayer.Tests\bin\Debug\DataLayer.pdb
+C:\00_Raja\LatestFSEFinals\WebAPI - Copy\ProjectManager.BusinessLayer.Tests\bin\Debug\DataLayer.dll.config
+C:\00_Raja\LatestFSEFinals\WebAPI - Copy\ProjectManager.BusinessLayer.Tests\obj\Debug\BusinessLayer.TestProject.csprojResolveAssemblyReference.cache
+C:\00_Raja\LatestFSEFinals\WebAPI - Copy\ProjectManager.BusinessLayer.Tests\obj\Debug\BusinessLayer.TestProject.dll
+C:\00_Raja\LatestFSEFinals\WebAPI - Copy\ProjectManager.BusinessLayer.Tests\obj\Debug\BusinessLayer.TestProject.pdb
+C:\00_Raja\LatestFSEFinals\WebAPI\BusinessLayer.TestProject\bin\Debug\BusinessLayer.TestProject.dll.config
+C:\00_Raja\LatestFSEFinals\WebAPI\BusinessLayer.TestProject\bin\Debug\BusinessLayer.TestProject.dll
+C:\00_Raja\LatestFSEFinals\WebAPI\BusinessLayer.TestProject\bin\Debug\BusinessLayer.TestProject.pdb
+C:\00_Raja\LatestFSEFinals\WebAPI\BusinessLayer.TestProject\bin\Debug\BusinessLayer.dll
+C:\00_Raja\LatestFSEFinals\WebAPI\BusinessLayer.TestProject\bin\Debug\Common.DataModel.dll
+C:\00_Raja\LatestFSEFinals\WebAPI\BusinessLayer.TestProject\bin\Debug\EntityFramework.dll
+C:\00_Raja\LatestFSEFinals\WebAPI\BusinessLayer.TestProject\bin\Debug\EntityFramework.SqlServer.dll
+C:\00_Raja\LatestFSEFinals\WebAPI\BusinessLayer.TestProject\bin\Debug\nunit.framework.dll
+C:\00_Raja\LatestFSEFinals\WebAPI\BusinessLayer.TestProject\bin\Debug\AutoMapper.dll
+C:\00_Raja\LatestFSEFinals\WebAPI\BusinessLayer.TestProject\bin\Debug\DataLayer.dll
+C:\00_Raja\LatestFSEFinals\WebAPI\BusinessLayer.TestProject\bin\Debug\BusinessLayer.pdb
+C:\00_Raja\LatestFSEFinals\WebAPI\BusinessLayer.TestProject\bin\Debug\BusinessLayer.dll.config
+C:\00_Raja\LatestFSEFinals\WebAPI\BusinessLayer.TestProject\bin\Debug\Common.DataModel.pdb
+C:\00_Raja\LatestFSEFinals\WebAPI\BusinessLayer.TestProject\bin\Debug\EntityFramework.xml
+C:\00_Raja\LatestFSEFinals\WebAPI\BusinessLayer.TestProject\bin\Debug\EntityFramework.SqlServer.xml
+C:\00_Raja\LatestFSEFinals\WebAPI\BusinessLayer.TestProject\bin\Debug\nunit.framework.pdb
+C:\00_Raja\LatestFSEFinals\WebAPI\BusinessLayer.TestProject\bin\Debug\nunit.framework.xml
+C:\00_Raja\LatestFSEFinals\WebAPI\BusinessLayer.TestProject\bin\Debug\AutoMapper.pdb
+C:\00_Raja\LatestFSEFinals\WebAPI\BusinessLayer.TestProject\bin\Debug\AutoMapper.xml
+C:\00_Raja\LatestFSEFinals\WebAPI\BusinessLayer.TestProject\bin\Debug\DataLayer.pdb
+C:\00_Raja\LatestFSEFinals\WebAPI\BusinessLayer.TestProject\bin\Debug\DataLayer.dll.config
+C:\00_Raja\LatestFSEFinals\WebAPI\BusinessLayer.TestProject\obj\Debug\BusinessLayer.TestProject.csprojResolveAssemblyReference.cache
+C:\00_Raja\LatestFSEFinals\WebAPI\BusinessLayer.TestProject\obj\Debug\BusinessLayer.TestProject.dll
+C:\00_Raja\LatestFSEFinals\WebAPI\BusinessLayer.TestProject\obj\Debug\BusinessLayer.TestProject.pdb

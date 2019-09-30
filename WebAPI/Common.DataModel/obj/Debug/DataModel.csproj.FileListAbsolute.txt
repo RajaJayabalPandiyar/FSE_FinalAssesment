@@ -1,0 +1,4 @@
+C:\00_Raja\LatestFSEFinals\WebAPI\ProjectManager.Shared\bin\Debug\DataModel.dll
+C:\00_Raja\LatestFSEFinals\WebAPI\ProjectManager.Shared\bin\Debug\DataModel.pdb
+C:\00_Raja\LatestFSEFinals\WebAPI\ProjectManager.Shared\obj\Debug\DataModel.dll
+C:\00_Raja\LatestFSEFinals\WebAPI\ProjectManager.Shared\obj\Debug\DataModel.pdb

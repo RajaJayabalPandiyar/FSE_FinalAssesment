@@ -1,0 +1,9 @@
+C:\Reshma\Personal\Cognizant\Learning\FSE\Assignments\POPSService\POPSService.Manager\bin\Debug\POPSService.Manager.dll
+C:\Reshma\Personal\Cognizant\Learning\FSE\Assignments\POPSService\POPSService.Manager\bin\Debug\POPSService.Manager.pdb
+C:\Reshma\Personal\Cognizant\Learning\FSE\Assignments\POPSService\POPSService.Manager\bin\Debug\POPSService.DataRepository.dll
+C:\Reshma\Personal\Cognizant\Learning\FSE\Assignments\POPSService\POPSService.Manager\bin\Debug\POPSService.Shared.dll
+C:\Reshma\Personal\Cognizant\Learning\FSE\Assignments\POPSService\POPSService.Manager\bin\Debug\POPSService.DataRepository.pdb
+C:\Reshma\Personal\Cognizant\Learning\FSE\Assignments\POPSService\POPSService.Manager\bin\Debug\POPSService.Shared.pdb
+C:\Reshma\Personal\Cognizant\Learning\FSE\Assignments\POPSService\POPSService.Manager\obj\Debug\POPSService.Manager.csprojResolveAssemblyReference.cache
+C:\Reshma\Personal\Cognizant\Learning\FSE\Assignments\POPSService\POPSService.Manager\obj\Debug\POPSService.Manager.dll
+C:\Reshma\Personal\Cognizant\Learning\FSE\Assignments\POPSService\POPSService.Manager\obj\Debug\POPSService.Manager.pdb

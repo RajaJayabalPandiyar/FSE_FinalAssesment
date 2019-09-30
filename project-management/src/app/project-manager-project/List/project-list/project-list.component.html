@@ -1,0 +1,40 @@
+<div class="col-md-12">
+  <br />
+  <br />
+  <ng-select2 [data]="searchProjects" [placeholder]="'Search...'" [width]="300">
+  </ng-select2>
+  Sort:
+  <button style="background-color: darksalmon" class="btn-filter">Start Date</button>
+  <button style="background-color: darksalmon" class="btn-filter">End Date</button>
+  <button style="background-color: darksalmon" class="btn-filter">Priority</button>
+  <button style="background-color: darksalmon" class="btn-filter">Completed</button>
+
+  <div class="col-md-12 table-responsive table-container">
+    <table class="table">
+      <thead>
+        <tr>
+          <th>Project</th>
+          <th>No of Tasks</th>
+          <th>Start Date</th>
+          <th>End Date</th>
+          <th>Priority</th>
+          <th>Completed</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let project of projects">
+          <td>{{project.projectName}}</td>
+          <td>{{project.noOfTasks}}</td>
+          <td>{{project.startDate === "" ? "Not specified" : project.startDate | date:'dd-MM-yyyy'}}</td>
+          <td>{{project.endDate === "" ? "Not specified" : project.endDate | date:'dd-MM-yyyy'}}</td>
+          <td>{{project.priority}}</td>
+          <td>{{project.completedTasks}}</td>
+          <td>
+            <button (click)="updateProject(project)" class="btn btn-info">Update</button>
+            <button (click)="suspendProject(project)" style="margin-left: 20px;" class="btn btn-info">Suspend</button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

@@ -1,0 +1,29 @@
+C:\00_Raja\LatestFSEFinals\WebAPI\ProjectManager.DataLayer\bin\Debug\DataLayer.dll.config
+C:\00_Raja\LatestFSEFinals\WebAPI\ProjectManager.DataLayer\bin\Debug\DataLayer.dll
+C:\00_Raja\LatestFSEFinals\WebAPI\ProjectManager.DataLayer\bin\Debug\DataLayer.pdb
+C:\00_Raja\LatestFSEFinals\WebAPI\ProjectManager.DataLayer\bin\Debug\EntityFramework.dll
+C:\00_Raja\LatestFSEFinals\WebAPI\ProjectManager.DataLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\00_Raja\LatestFSEFinals\WebAPI\ProjectManager.DataLayer\bin\Debug\EntityFramework.xml
+C:\00_Raja\LatestFSEFinals\WebAPI\ProjectManager.DataLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\00_Raja\LatestFSEFinals\WebAPI\ProjectManager.DataLayer\obj\Debug\DataLayer.dll
+C:\00_Raja\LatestFSEFinals\WebAPI\ProjectManager.DataLayer\obj\Debug\DataLayer.pdb
+C:\00_Raja\LatestFSEFinals\WebAPI - Copy\ProjectManager.DataLayer\bin\Debug\DataLayer.dll.config
+C:\00_Raja\LatestFSEFinals\WebAPI - Copy\ProjectManager.DataLayer\bin\Debug\DataLayer.dll
+C:\00_Raja\LatestFSEFinals\WebAPI - Copy\ProjectManager.DataLayer\bin\Debug\DataLayer.pdb
+C:\00_Raja\LatestFSEFinals\WebAPI - Copy\ProjectManager.DataLayer\bin\Debug\EntityFramework.dll
+C:\00_Raja\LatestFSEFinals\WebAPI - Copy\ProjectManager.DataLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\00_Raja\LatestFSEFinals\WebAPI - Copy\ProjectManager.DataLayer\bin\Debug\EntityFramework.xml
+C:\00_Raja\LatestFSEFinals\WebAPI - Copy\ProjectManager.DataLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\00_Raja\LatestFSEFinals\WebAPI - Copy\ProjectManager.DataLayer\obj\Debug\DataLayer.csprojResolveAssemblyReference.cache
+C:\00_Raja\LatestFSEFinals\WebAPI - Copy\ProjectManager.DataLayer\obj\Debug\DataLayer.dll
+C:\00_Raja\LatestFSEFinals\WebAPI - Copy\ProjectManager.DataLayer\obj\Debug\DataLayer.pdb
+C:\00_Raja\LatestFSEFinals\WebAPI\ProjectManager.DataLayer\obj\Debug\DataLayer.csprojResolveAssemblyReference.cache
+C:\00_Raja\LatestFSEFinals\WebAPI\DataLayer\bin\Debug\DataLayer.dll.config
+C:\00_Raja\LatestFSEFinals\WebAPI\DataLayer\bin\Debug\DataLayer.dll
+C:\00_Raja\LatestFSEFinals\WebAPI\DataLayer\bin\Debug\DataLayer.pdb
+C:\00_Raja\LatestFSEFinals\WebAPI\DataLayer\bin\Debug\EntityFramework.dll
+C:\00_Raja\LatestFSEFinals\WebAPI\DataLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\00_Raja\LatestFSEFinals\WebAPI\DataLayer\bin\Debug\EntityFramework.xml
+C:\00_Raja\LatestFSEFinals\WebAPI\DataLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\00_Raja\LatestFSEFinals\WebAPI\DataLayer\obj\Debug\DataLayer.dll
+C:\00_Raja\LatestFSEFinals\WebAPI\DataLayer\obj\Debug\DataLayer.pdb

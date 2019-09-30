@@ -1,0 +1,34 @@
+<div class="col-md-12">
+  <br />
+  <br />
+  <ng-select2 [ngModel]="selectedUser" [data]="searchUsers" [placeholder]="'Search...'" [width]="300"
+    (ngModelChange)="onUserSelect($event)">
+  </ng-select2>
+  Sort:
+  <button style="background-color: darksalmon" class="btn-filter" (click)="onSortF()">First Name</button>
+  <button style="background-color: darksalmon" class="btn-filter" (click)="onSortL()">Last Name</button>
+  <button style="background-color: darksalmon" class="btn-filter" (click)="onSortID()">Id</button>
+  <div class="table-responsive table-container">
+    <table class="table">
+      <thead>
+        <tr>
+          <th>First Name</th>
+          <th>Last Name</th>
+          <th>Employee ID</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let user of users">
+          <td>{{user.firstName}}</td>
+          <td>{{user.lastName}}</td>
+          <td>{{user.employeeID}}</td>
+          <td>
+            <button style="background-color: darksalmon" (click)="deleteUser(user)" class="btn btn-info">Delete</button>
+            <button style="background-color: darksalmon" (click)="editUser(user)" style="margin-left: 20px;"
+              class="btn btn-info">Edit</button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

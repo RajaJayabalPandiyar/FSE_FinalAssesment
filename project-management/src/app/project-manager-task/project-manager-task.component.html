@@ -1,0 +1,67 @@
+<div class="col-md-6">
+  <form [formGroup]="addForm" novalidate class="form">
+    <div class="col-md-6">
+      <div class="form-group row">
+        <div class="col-md-2"><label for="project">Project:</label></div>
+        <ng-select2 formControlName="projectID" [(ngModel)]="project" [data]="searchProjects"
+          [placeholder]="'Search...'" [width]="300">
+        </ng-select2>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="form-group">
+        <label for="taskName">Task:</label>
+        <input formControlName="taskName" name="taskName" class="form-control" id="taskName">
+        <label for="setasparent" class="checklabel setasparentlabel">Set Parent task</label>
+        <input type="checkbox" (change)="changeValue($event)" formControlName="setasparent" placeholder=""
+          name="setasparent" class="form-control" id="setasparent" />
+
+        <div class="alert alert-danger"
+          *ngIf="addForm.get('taskName').hasError('required') && addForm.get('taskName').touched">
+          Task Name is required.
+        </div>
+
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label for="priority">Priority :</label>
+      <input formControlName="priority" type="range" name="priority" id="priority" min="1" max="30" name="priority"
+        value="priority">
+    </div>
+    <div class="col-md-6">
+      <div class="form-group row">
+        <div class="col-md-6"><label for="parentTask">Parent Task:</label></div>
+        <ng-select2 formControlName="parentID" [(ngModel)]="parentTask" [data]="searchParentTasks"
+          [placeholder]="'Search...'" [width]="300">
+        </ng-select2>
+      </div>
+      <div class="form-group">
+        <label for="endDate">End Date:</label>
+        <input formControlName="endDate" type="date" placeholder="End Date" name="endDate" class="form-control"
+          id="endDate">
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="form-group">
+        <label for="startDate">Start Date:</label>
+        <input formControlName="startDate" type="date" placeholder="Start Date" name="startDate" class="form-control"
+          id="startDate">
+      </div>
+
+    </div>
+    <div class="col-md-6">
+      <div class="form-group row">
+        <div class="col-md-2"><label for="user">User:</label></div>
+        <ng-select2 formControlName="userID" [(ngModel)]="user" [data]="searchUsers" [placeholder]="'Search...'"
+          [width]="300">
+        </ng-select2>
+      </div>
+    </div>
+    <button style="background-color: darksalmon" class="btn btn-success" [disabled]='addForm.invalid' *ngIf="btnvisibility" (click)="onSubmit()">Add
+      Task</button>
+    <button style="background-color: darksalmon" class="btn btn-success" [disabled]='addForm.invalid' *ngIf="!btnvisibility"
+      (click)="onUpdate()">Reset</button>
+
+  </form>
+</div>
